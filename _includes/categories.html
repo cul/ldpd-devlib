@@ -1,0 +1,8 @@
+{% assign categorylist = "" %}{% for post in site.wposts %}{% assign last = forloop.last %}{% for category in post.categories %}{% assign temp = category | strip | downcase %}{% unless last %}{% assign temp = temp | append: "^" %}{% endunless %}{% assign categorylist = categorylist | append: temp %}{% endfor %}{% endfor %}{% assign categorylist = categorylist | split: "^" | uniq %}
+<h3>Categories:</h3>
+<p>
+  {% for category in categorylist %}
+    {% assign category_slug = category | slugify %}
+    <a href="{{ '/category/' |  append: category_slug | relative_url }}">{{ category }}</a>{% unless forloop.last %} / {% endunless %}
+  {% endfor %}
+</p>

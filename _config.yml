@@ -1,0 +1,45 @@
+title:        Breaking the Code
+description:  The Developing Librarian Project
+
+version:      1.0.0
+repo:         https://github.com/mnyrop/devlib-jekyll.git
+
+url:          ""
+baseurl:      /ldpd-devlib
+
+markdown:     kramdown
+exclude:      [ Gemfile*, vendor ]
+
+# page generator settings
+collections:
+    wposts:
+      source: posts.yaml
+      output: true
+      yml_split: false
+      name_key: title
+      directory: wposts
+      layout: post
+    pages:
+      output: true
+
+# rspec test settings
+search_tests:
+  main:
+    page: search.html
+    terms:
+      - git
+      - design
+      - omeka
+
+# jscdn
+scripts:
+  - name: jquery
+    src:  https://code.jquery.com/jquery-3.2.1.min.js
+  - name: jquery-migrate
+    src:  http://code.jquery.com/jquery-migrate-1.2.1.min.js
+  - name: lunr
+    src:  https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.1.3/lunr.min.js
+  - name: enquire.js
+    src:  https://cdnjs.cloudflare.com/ajax/libs/enquire.js/2.1.6/enquire.min.js
+  - name: superfish
+    src:  https://cdnjs.cloudflare.com/ajax/libs/superfish/1.7.9/js/superfish.min.js

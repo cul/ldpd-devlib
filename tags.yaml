@@ -1,0 +1,5 @@
+---
+layout: null
+---
+{% assign taglist = "" %}{% for post in site.wposts %}{% assign last = forloop.last %}{% for tag in post.tags %}{% assign temp = tag | strip | downcase %}{% unless last %}{% assign temp = temp | append: "^" %}{% endunless %}{% assign taglist = taglist | append: temp %}{% endfor %}{% endfor %}{% assign taglist = taglist | split: "^" | uniq %}{% for tag in taglist %} - {{ tag }}
+{% endfor %}

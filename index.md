@@ -1,0 +1,4 @@
+---
+postgroup: wposts
+layout: home
+---

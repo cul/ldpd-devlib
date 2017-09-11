@@ -1,0 +1,5 @@
+---
+layout: null
+---
+{% assign categorylist = "" %}{% for post in site.wposts %}{% assign last = forloop.last %}{% for category in post.categories %}{% assign temp = category | strip | downcase %}{% unless last %}{% assign temp = temp | append: "^" %}{% endunless %}{% assign categorylist = categorylist | append: temp %}{% endfor %}{% endfor %}{% assign categorylist = categorylist | split: "^" | uniq %}{% for category in categorylist %}- {{ category }}
+{% endfor %}

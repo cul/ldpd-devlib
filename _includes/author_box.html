@@ -1,0 +1,18 @@
+
+{% assign author = site.data.authors | where: "name", page.author | first %}
+
+<div class="author-info">
+	<div class="author-avatar">
+		<div class="author-avatar-inside">
+			<img src="{{ '/wp-content/avatars/' | append: author.img_src | relative_url }}" width="80" height="80" alt="{{ author.name }}" class="avatar avatar-80 wp-user-avatar wp-user-avatar-80 alignnone photo" />
+    </div>
+	</div>
+
+	<div class="author-description">
+		<h2 class="author-title"><span class="author-heading">Author: </span>{{ author.name }}</h2>
+
+		<p class="author-bio">
+			{{ author.about }}<a class="author-link" href="{{ '/author/' | append: author.slug | relative_url }}" rel="author"> View all posts by {{ author.name }}</a>
+		</p>
+	</div>
+</div>

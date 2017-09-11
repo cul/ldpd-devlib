@@ -1,0 +1,148 @@
+---
+layout: page
+title: People
+permalink: /people
+---
+
+<!-- Ian_Beilin -->
+<div style="float: left; width: 200px; padding: 10px; margin: 5px; clear: left;">
+  <img class="alignnone wp-image-1388 size-full" src="{{ '/wp-content/avatars/ian.jpg' | relative_url }}" alt="Ian_Beilin" width="195" height="195" />
+</div>
+<div style="float: left; width: 400px; padding: 10px; margin: 5px; clear: right;">
+  <strong>Ian Beilin</strong><br />
+  <p>Ian Beilin is Humanities Research Services Librarian. He received his PhD in modern European history from Columbia University and his MSIS from The University at Albany. He teaches modern European history at New York University’s School of Professional Studies, McGhee Division. He has lived and conducted research in Berlin, Moscow, and St. Petersburg (Russia). Ian is a member of the editorial board of <em>In the Library with the Lead Pipe</em>. He has spoken and published on topics in critical librarianship and modern German history. He is currently working on topics in critical library instruction and information literacy, and he has begun a study investigating conformity and resistance among 20th century German academic librarians. He is also co-author, with Anna Fishzon, of <em>A Cultural History of Fin-de-Siecle Europe</em>, forthcoming from Bloomsbury. Having recently joined Columbia Libraries, he became part of the Developing Librarian project in its late stage, taking on the responsibility of completing the exhibit and collections for Leake and Watts Orphan House.</p>
+</div>
+
+
+<!-- Nancy_Friedland -->
+<div style="float: left; width: 200px; padding: 10px; margin: 5px; clear: left;">
+  <img class="alignleft wp-image-575 size-full" src="{{ '/wp-content/uploads/2013/02/Nancy.jpg' | relative_url }}" alt="Nancy_Friedland" width="178" height="148" />
+</div>
+<div style="float: left; width: 400px;padding: 10px; margin: 5px; clear: right;">
+  <strong><a href="{{ '/author/nancy' | relative_url }}">Nancy Friedland</a></strong><br />
+  <p>Nancy Friedland is the Librarian for Film Studies and Performing Arts. She began work at Columbia in 1995 as the Assistant Undergraduate Librarian. By 1996, she was tasked with helping to develop the Butler Media Collection, Butler Media Center and related services. She continues to serve as the primary selector for the Butler Media Collection and as the liaison to students and faculty in the School of the Arts. She is currently President of Theatre Library Association. She is also a Visiting Associate Professor at the Pratt Institute School of Information and Library Science and the Palmer School of Library and Information Science. Her personal research interests include costume design for film and theatre, New York City history, Yiddish theatre and digital humanities and the performing arts. Her focus for the Morningside Project is St. Luke’s Hospital.</p>
+</div>
+
+
+<!-- Alex_Gil -->
+<div style="float: left; width: 200px; padding: 10px; margin: 5px; clear: left;">
+  <img class="alignnone wp-image-621 size-medium" src="{{ '/wp-content/uploads/2013/02/alex_headshot-300x300.jpg' | relative_url }}" alt="Alex_Gil" width="300" height="300" />
+</div>
+<div style="float: left; width: 400px;padding: 10px; margin: 5px; clear: right;">
+  <strong>Alex Gil</strong><br />
+  <p>Alex Gil is Digital Scholarship Coordinator for the Humanities and History at Columbia. He serves as a consultant to faculty, students and the library on the impact of technology on humanities research, pedagogy and scholarly communications. Current projects include an open repository of syllabi for curricular research, an aggregator for digital humanities projects worldwide and other initiatives at the intersection of technology and the humanities. He is currently vice-chair of global-outlook::digital-humanities (GO::DH) and the organizer of the THATCamp Caribe series. His scholarly heart remains betrothed to Caribbean Literature in the 20th Century.</p>
+</div>
+
+
+<!--  Karen_Green -->
+<div style="float: left; width: 200px; padding: 10px; margin: 5px; clear: left;">
+  <img class="alignnone wp-image-1396 size-full" src="{{ '/wp-content/uploads/2015/08/Karen.jpg' | relative_url }}" alt="Karen_Green" width="195" height="197" />
+</div>
+<div style="float: left; width: 400px;padding: 10px; margin: 5px; clear: right;">
+  <strong><a href="{{ '/author/klg19' | relative_url }}">Karen Green</a></strong><br />
+  <p>Karen Green has worked at the Columbia University Libraries as librarian for Ancient &amp; Medieval History since 2002, and has been the Graphic Novels librarian since 2005. In 2015, she also became adjunct curator for Comics and Cartoons in Columbia&#8217;s Rare Book &amp; Manuscript Library. She has a B.A. from NYU in Medieval and Renaissance Studies, an M.A. and M.Phil. from Columbia University in Medieval History, and an M.L.I.S. from Rutgers University. Karen believes that no one is defined by the relatively narrow set of interests that constitute their official job responsibilities (evidenced, at the very least, by her expansion into comics three years into her job at Columbia). Having lived in New York City since 1978, and loved the city since first visiting in 1969, she is particularly excited by the historical exploration that drives the Morningside Project. Her subject of inquiry is the Lion Brewery, once situated on Columbus Avenue between 107th and 109th Streets, a choice driven in part by her fifteen years as a bartender in NYC (1978-1993).</p>
+</div>
+
+
+<!-- Meredith_Levin -->
+<div style="float: left; width: 200px; padding: 10px; margin: 5px; clear: left;">
+  <img class="alignnone wp-image-1408 size-full" src="{{ '/wp-content/uploads/2015/08/Meredith_2.jpg' | relative_url }}" alt="Meredith_Levin" width="195" height="196"/>
+</div>
+<div style="float: left; width: 400px;padding: 10px; margin: 5px; clear: right;">
+  <strong><a href="{{ '/author/meredithlevin' | relative_url }}">Meredith Levin</a></strong><br />
+  <p>Meredith Levin has been the Western European Humanities Librarian at Columbia since February 2014. She has a B.A. in English and American Literature, an M.A. in Italian Studies from NYU and an M.S. in Library and Information Science from LIU’s Palmer School. Her research interests include Anglo-American expatriates in Europe in the 18th-20th centuries, women’s Grand Tour travel narratives, and Fascist colonial policy and culture in North Africa. She is researching the history and construction of Riverside Church for this project.</p>
+</div>
+
+
+<!-- Anice_Mills -->
+<div style="float: left; width: 200px; padding: 10px; margin: 5px; clear: left;">
+  <img class="alignnone wp-image-1381 size-full" src="{{ '/wp-content/uploads/2015/08/Anice2.jpg' | relative_url }}" alt="Anice_Mills" width="195" height="195" />
+</div>
+<div style="float: left; width: 400px;padding: 10px; margin: 5px;clear:right;">
+  <strong><a href="{{ '/author/anice' | relative_url }}">Anice Mills</a></strong><br />
+  <p>Anice Mills has been the Undergraduate Services Librarian in the Humanities &amp; History Libraries since 2002. She holds an M.A. in Russian History from the University of London and an M.S. in Library and Information Science from LIU/Palmer School. She is the selector for the Milstein Undergraduate Library housed in Butler Library. She aims to support the research interests of undergraduates in Columbia College and General Studies, with particular focus on incorporating digital tools and methods into their research. Her project focus is on the history and development of Riverside Park, designed by Frederick Law Olmsted and built between 1875 and 1910 alongside the Hudson River to complement the developing Morningside Heights community.</p>
+</div>
+
+
+<!-- Nick_Patterson -->
+<div style="float: left; width: 200px; padding: 10px; margin: 5px; clear: left;">
+  <img class="alignnone wp-image-622 size-medium" src="{{ '/wp-content/uploads/2013/02/nick-300x264.jpg' | relative_url }}" alt="Nick_Patterson" width="300" height="264" />
+</div>
+<div style="float: left; width: 400px;padding: 10px; margin: 5px;clear:right;">
+  <strong><a href="{{ '/author/nickpatterson' | relative_url }}">Nick Patterson</a></strong><br />
+  <p>I&#8217;m a music librarian in the Music &amp; Arts Library, and also manage the Digital Music Lab there. I am a graduate in Composition from New England Conservatory, and still active as a composer. I have strong interests in the intersection of music and technology, the history of electronic music, and sound in the digital humanities. New York&#8217;s, and Columbia&#8217;s, musical riches mean that I will probably never leave this city. I&#8217;ll be looking at the impact of the development of the subway on Morningside Heights (and trying to include recordings of screeching trains!)</p>
+</div>
+
+
+<!-- Barbara_Rockenbach -->
+<div style="float: left; width: 200px; padding: 10px; margin: 5px;clear:left;">
+  <img class="alignnone wp-image-1409 size-full" src="{{  '/wp-content/uploads/2015/08/Barbara.jpg' | relative_url }}" alt="Barbara_Rockenbach' | relative_url }}" width="195" height="200" />
+</div>
+<div style="float: left; width: 400px;padding: 10px; margin: 5px;clear:right;">
+  <strong><a href="{{ '/author/rockenbach' | relative_url }}">Barbara Rockenbach</a></strong><br />
+  <p>A librarian and art historian by training, Barbara is interested in how the digital humanities provide libraries a new model for scholarly engagement.  Her research interests include  information ethics, pedagogy and libraries, digital humanities in libraries, and 20<sup>th</sup> century photography.</p>
+</div>
+
+
+<!-- Bob_Scott -->
+<div style="float: left; width: 200px; padding: 10px; margin: 5px;clear:left;">
+  <img class="alignnone wp-image-1407 size-full" src="{{ '/wp-content/uploads/2015/08/Bob_Scott_2.jpg' | relative_url }}" alt="Bob_Scott" width="195" height="200" />
+</div>
+<div style="float: left; width: 400px;padding: 10px; margin: 5px;clear:right;">
+  <strong><a href="{{ '/author/rhs1' | relative_url }}">Bob Scott</a></strong><br />
+  <p>Now Columbia&#8217;s Digital Humanities Librarian and formerly Head of the its Electronic Text Service, I am excited by the potential of a new wave of tools and techniques for finally realizing the promise of the digital format for humanities scholarship. My own academic interests lie in the history and culture of Eastern Europe, particularly in the Middle Ages, but I look forward to applying my desire for better tools to share and analyze historical sources in that field to the more immediate focus of the history of Morningside Heights. For the Morningside project, I bringing together sources illustrating the history of the Bloomingdale Asylum, which occupied the land that is now the main campus of Columbia from 1821 to 1894.</p>
+</div>
+
+
+<!--  John_Tofanelli -->
+<div style="float: left; width: 200px; padding: 10px; margin: 5px;clear:left;">
+  <img class="alignnone wp-image-1399 size-full" src="{{ '/wp-content/uploads/2015/08/John_2.jpg' | relative_url }}" alt="John_Tofanelli" width="195" height="201" />
+</div>
+<div style="float: left; width: 400px;padding: 10px; margin: 5px;clear:right;">
+  <strong><a href="{{ '/author/john' | relative_url }}">John L. Tofanelli</a></strong><br />
+  <p>John is Columbia&#8217;s Librarian for British and American History and Literature. His research interests include literature and religion in 18th- and 19th- century Great Britain, textual criticism, and book history. He has enjoyed the chance to explore the early architectural history of the Cathedral Church of Saint John the Divine.</p>
+</div>
+
+
+<!-- Sarah_Witte -->
+<div style="float: left; width: 200px; padding: 10px; margin: 5px; clear: left;">
+  <img class="alignnone wp-image-1419 size-full" src="{{ '/wp-content/uploads/2015/08/Sarah_Witte_18.jpg' | relative_url }}" alt="Sarah_Witte" width="195" height="195" />
+</div>
+<div style="float: left; width: 400px;padding: 10px; margin: 5px;clear:right">
+  <strong><a href="{{ '/author/sswitte' | relative_url }}">Sarah Witte</a></strong><br />
+  <p>As the Research and Collections Librarian for Gender &amp; Women&#8217;s Studies I hope to build technical literacy in support of research in social history, especially involving census, GIS, textual data and primary resources. I am also interested in database design and architecture and the assessment of user interfaces.</p>
+</div>
+
+
+
+<h3 style="float: left; padding: 10px; margin: 20px 0px 20px 0px;">Past Contributors:</h3>
+
+
+<!--  Mary_Cargill -->
+<div style="float: left; width: 200px; padding: 10px; margin: 5px;clear:left;">
+  <img class="alignnone wp-image-572 size-full" src="{{ '/wp-content/uploads/2013/02/Mary.jpg' | relative_url }}" alt="Mary_Cargill" width="163" height="156" />
+</div>
+<div style="float: left; width: 400px;padding: 10px; margin: 5px;clear:right;">
+  <strong><a href="{{ '/author/cargill' | relative_url }}">Mary Cargill</a></strong><br />
+  <p>Mary Cargill began working at Columbia as a reference librarian in 1983, focusing on history and humanities. Previously, she was a reference librarian at SUNY Albany, and before that with the Library of Congress, where she specialized in performing arts research. She will be looking into the Leake and Watts Orphan Home, and especially the issue of homeless and orphan children in the 19th century.</p>
+</div>
+
+
+<!-- Laurence_Crohem -->
+<div style="float: left; width: 200px; padding: 10px; margin: 5px; clear: left;">
+  <img class="alignnone wp-image-1389 size-full" src="{{ '/wp-content/uploads/2015/08/Laurence.jpg' | relative_url }}" alt="Laurence_Crohem" width="195" height="196"  />
+</div>
+<div style="float: left; width: 400px;padding: 10px; margin: 5px;clear:right">
+  <strong><a href="{{ '/author/laurencecrohem' | relative_url }}">Laurence Crohem</a></strong><br />
+  <p>Interning at Columbia University Libraries for three months during spring 2015, Laurence Crohem graduated from the French National Library School (Enssib). She earned a PhD in English Literature from the University of Lille and taught English and English-speaking literature in France for fifteen years. Her research interests include Shakespeare and early modern drama and focus on issues of identity in Shakespeare’s plays. She is also interested in the relation between digital humanities, evolving modes of scholarship and of teaching, digital tools and their appropriation by librarians, which are at the heart of the Morningside Heights Project. Along with Mary Cargill and Ian Beilin, she is looking into the Leake and Watts Orphan Home.</p>
+</div>
+
+
+<!-- jennifer_ferretti -->
+<div style="float: left; width: 200px; padding: 10px; margin: 5px;clear:left;">
+  <img class="alignnone wp-image-543 size-full" src="{{ '/wp-content/uploads/2013/02/ferretti_jennifer.jpg' | relative_url }}" alt="jennifer_ferretti" width="242" height="241" />
+</div>
+<div style="float: left; width: 400px;padding: 10px; margin: 5px;clear:right;">
+  <strong><a href="{{ '/author/ferretti' | relative_url }}">Jennifer Ferretti</a></strong><br />
+  <p>Jennifer Ferretti is the Association of Research Libraries Career Enhancement Fellow in the Humanities &amp; History Division. She is a graduate student at Pratt Institute&#8217;s School of Information and Library Science, concentrating on digital humanities. She received her Bachelor of Fine Arts degree from the Maryland Institute College of Art before becoming the Curator of Photographs &amp; Digitization Coordinator at the Maryland Historical Society. She is interested in digital preservation, curation, photography, urban history, and turn-of-the-century architecture.Her focus for the Morningside Heights project is the history of the natural and built environment of the neighborhood.</p>
+</div>
