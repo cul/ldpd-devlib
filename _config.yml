@@ -4,8 +4,8 @@ description:  The Developing Librarian Project
 version:      1.0.0
 repo:         https://github.com/mnyrop/devlib-jekyll.git
 
-url:          ""
-baseurl:      /ldpd-devlib
+url:          "https://developinglibrarian.library.columbia.edu"
+baseurl:      ""
 
 markdown:     kramdown
 exclude:      [ Gemfile*, vendor ]
