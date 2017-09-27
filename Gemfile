@@ -1,8 +1,8 @@
-source "https://rubygems.org"
-gem "jekyll", "3.6.0"
+source 'https://rubygems.org'
+gem 'jekyll', "3.6.0"
 
 group :development, :test do
-  gem 'html-proofer'
+  gem 'html-proofer', '>= 3.7.3'
   gem "rspec"
   gem 'capybara'
   gem 'launchy'
