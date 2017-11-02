@@ -1,0 +1,961 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Breaking the Code &#8211; The Developing Librarian Project</title>
+
+  <link rel="profile" href="http://gmpg.org/xfn/11">
+
+  <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+
+  <link rel='dns-prefetch' href='//fonts.googleapis.com'/>
+  <link rel='dns-prefetch' href='//s.w.org'/>
+
+  <!--style-->
+  <link rel='stylesheet' id='retina-bootstrap-css' href='/css/bootstrap.css' type='text/css' media='all'/>
+  <link rel='stylesheet' id='retina-fontawesome-css' href='/css/font-awesome.min.css' type='text/css' media='all'/>
+  <link rel='stylesheet' id='retina-fonts-css'  href='https://fonts.googleapis.com/css?family=Playfair+Display%3A400%2C700%2C400italic%2C700italic%7CLato%3A400%2C400italic%2C700%2C700italic&#038;subset=latin%2Clatin-ext' type='text/css' media='all'/>
+  <link rel='stylesheet' id='retina-style-css' href='/css/style.css' type='text/css' media='all'/>
+  <link rel='stylesheet' id='foundation-flickity-css' data-context="foundation-flickity-css" href='/css/foundation-flickity.css' type='text/css' media='all'/>
+  <link rel='stylesheet' id="foundation-slideout-css" data-context="foundation-slideout-css" href='/css/foundation-slideout.css' type='text/css' media='all'/>
+  <link rel='stylesheet' id='custom-css' href='/css/custom.css' type='text/css' media='all'/>
+
+  <!--cdn scripts-->
+  
+    <script type='text/javascript' id="jquery" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  
+    <script type='text/javascript' id="jquery-migrate" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.0.1/jquery-migrate.min.js"></script>
+  
+    <script type='text/javascript' id="lunr" src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.1.4/lunr.min.js"></script>
+  
+    <script type='text/javascript' id="enquire.js" src="https://cdnjs.cloudflare.com/ajax/libs/enquire.js/2.1.6/enquire.min.js"></script>
+  
+    <script type='text/javascript' id="superfish" src="https://cdnjs.cloudflare.com/ajax/libs/superfish/1.7.9/js/superfish.min.js"></script>
+  
+  <!--local scripts-->
+  <script type='text/javascript' id="retina-custom" src="/js/custom.js"></script>
+  <script type="text/javascript">
+    jQuery.migrateMute = true // silence annoying logs on poltergeist tests
+  </script>
+</head>
+
+<body class="home blog group-blog hfeed has-site-branding has-custom-header has-no-sidebar">
+<div id="page" class="site-wrapper site">
+<header id="masthead" class="site-header" role="banner">
+<div class="container">
+  <div class="row">
+    <div class="col-xl-12">
+
+      <div class="site-header-inside">
+
+        <div class="site-branding-wrapper">
+          <div class="site-logo-wrapper"></div>
+          <div class="site-branding">
+            <h2 class="site-title">
+              <a href="/" title="Breaking the Code" rel="home">Breaking the Code</a>
+            </h2>
+            <h3 class="site-description">The Developing Librarian Project</h3>
+          </div>
+        </div><!-- .site-branding-wrapper -->
+
+        <div class="toggle-menu-wrapper">
+          <a href="#" title="Menu" class="toggle-menu-control">
+            <span class="screen-reader-text">Menu</span>
+          </a>
+        </div>
+
+      </div><!-- .site-header-inside -->
+
+    </div><!-- .col-xl-12 -->
+  </div><!-- .row -->
+</div><!-- .container -->
+</header><!-- #masthead -->
+
+<nav id="site-navigation" class="main-navigation" role="navigation">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12">
+
+        <div class="main-navigation-inside">
+
+          <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+          <div class="site-primary-menu">
+            <ul class="primary-menu sf-menu">
+              <li class="current_page_item"><a href="/">Home</a></li>
+              <li class="page_item page-item-106"><a href="/about">About</a></li>
+              <li class="page_item page-item-40"><a href="/charter">Charter</a></li>
+              <li class="page_item page-item-245"><a href="/people">People</a></li>
+              <li class="page_item page-item-1297"><a href="/publications">Publications and Presentations</a></li>
+              <li class="page_item page-item-124"><a href="/roadmap">Roadmap</a></li>
+              <li class="page_item page-item-236"><a href="/the-dhc">The DHC</a></li>
+              <li class="page_item page-item-236"><a href="/search">Search</a></li>
+            </ul>
+          </div>
+
+        </div><!-- .main-navigation-inside -->
+
+      </div><!-- .col-xl-12 -->
+    </div><!-- .row -->
+  </div><!-- .container -->
+</nav><!-- .main-navigation -->
+
+<div id="content" class="site-content">
+	<div class="container">
+
+		<h1>Author: Sarah Witte</h1>
+		<br/><br/>
+		<div class="row">
+			<div id="primary" class="content-area col-xl-12">
+				<main id="main" class="site-main" role="main">
+          
+					
+						<article class="post type-post status-publish format-standard hentry category-copyright">
+							<div class="entry-header-wrapper entry-header-wrapper-archive">
+								<div class="entry-meta entry-meta-header-before">
+									<ul>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/category/skill-development">skill development</a>
+											</span>
+										</li>
+										
+										
+									</ul>
+								</div>
+
+								<header class="entry-header">
+									<h1 class="entry-title"><a href="/on-the-fly/" rel="bookmark">On the fly</a></h1>
+								</header>
+
+								<div class="entry-meta entry-meta-header-after">
+									<ul>
+										<li>
+											<span class="posted-on">
+												<a href="/on-the-fly/" rel="bookmark">
+													<time class="entry-date published" datetime="2013-01-17 00:00:00 -0500">January 17, 13</time>
+												</a>
+											</span>
+										</li>
+										<li>
+											<span class="byline"> by
+												<span class="author vcard">
+													
+													
+														<a class="url fn n" href="/author/sswitte">
+													
+														Sarah Witte
+													
+														</a>
+													
+												</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="entry-summary">
+								<p>I’m so excited about this project. Librarians are accustomed to learning technology on the fly.  We’re efficient: copying another page’s source code and substituting our own content was one way to get things done quickly when there wasn’t time to build something from the ground up.  It’s wonderful to have...</p>
+							</div>
+
+							<div class="more-link-wrapper">
+								<a href="/on-the-fly/" class="more-link">Read More</a>
+							</div>
+						</article>
+
+					
+						<article class="post type-post status-publish format-standard hentry category-copyright">
+							<div class="entry-header-wrapper entry-header-wrapper-archive">
+								<div class="entry-meta entry-meta-header-before">
+									<ul>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/category/skill-development">skill development</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/category/tools">tools</a>
+											</span>
+										</li>
+										
+										
+									</ul>
+								</div>
+
+								<header class="entry-header">
+									<h1 class="entry-title"><a href="/adding-an-rss-feed-from-a-database/" rel="bookmark">Adding an RSS feed from a database</a></h1>
+								</header>
+
+								<div class="entry-meta entry-meta-header-after">
+									<ul>
+										<li>
+											<span class="posted-on">
+												<a href="/adding-an-rss-feed-from-a-database/" rel="bookmark">
+													<time class="entry-date published" datetime="2013-02-05 00:00:00 -0500">February 05, 13</time>
+												</a>
+											</span>
+										</li>
+										<li>
+											<span class="byline"> by
+												<span class="author vcard">
+													
+													
+														<a class="url fn n" href="/author/sswitte">
+													
+														Sarah Witte
+													
+														</a>
+													
+												</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="entry-summary">
+								<p>It's fairly easy to create and add an RSS feed to a WordPress blog. 1. Go to Appearance &gt; widgets and drag and position the RSS widget on the sidebar. 2. Construct your feed. Nearly every database offers the option to create a feed from a search. If you would like your results...</p>
+							</div>
+
+							<div class="more-link-wrapper">
+								<a href="/adding-an-rss-feed-from-a-database/" class="more-link">Read More</a>
+							</div>
+						</article>
+
+					
+						<article class="post type-post status-publish format-standard hentry category-copyright">
+							<div class="entry-header-wrapper entry-header-wrapper-archive">
+								<div class="entry-meta entry-meta-header-before">
+									<ul>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/category/tools">tools</a>
+											</span>
+										</li>
+										
+										
+									</ul>
+								</div>
+
+								<header class="entry-header">
+									<h1 class="entry-title"><a href="/change/" rel="bookmark">Showing Change</a></h1>
+								</header>
+
+								<div class="entry-meta entry-meta-header-after">
+									<ul>
+										<li>
+											<span class="posted-on">
+												<a href="/change/" rel="bookmark">
+													<time class="entry-date published" datetime="2013-03-21 00:00:00 -0400">March 21, 13</time>
+												</a>
+											</span>
+										</li>
+										<li>
+											<span class="byline"> by
+												<span class="author vcard">
+													
+													
+														<a class="url fn n" href="/author/sswitte">
+													
+														Sarah Witte
+													
+														</a>
+													
+												</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="entry-summary">
+								<p>I was curious to see how Omeka sites have illustrated population growth and other changes over time.  I was hoping to find something similar to the Pastmapper site about Greenwich Village, which takes a street in Greenwich village and incorporates census and building data.  It is not an Omeka site,...</p>
+							</div>
+
+							<div class="more-link-wrapper">
+								<a href="/change/" class="more-link">Read More</a>
+							</div>
+						</article>
+
+					
+						<article class="post type-post status-publish format-standard hentry category-copyright">
+							<div class="entry-header-wrapper entry-header-wrapper-archive">
+								<div class="entry-meta entry-meta-header-before">
+									<ul>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/category/project-description">project description</a>
+											</span>
+										</li>
+										
+										
+									</ul>
+								</div>
+
+								<header class="entry-header">
+									<h1 class="entry-title"><a href="/fire-and-water/" rel="bookmark">Fire and Water</a></h1>
+								</header>
+
+								<div class="entry-meta entry-meta-header-after">
+									<ul>
+										<li>
+											<span class="posted-on">
+												<a href="/fire-and-water/" rel="bookmark">
+													<time class="entry-date published" datetime="2013-07-11 00:00:00 -0400">July 11, 13</time>
+												</a>
+											</span>
+										</li>
+										<li>
+											<span class="byline"> by
+												<span class="author vcard">
+													
+													
+														<a class="url fn n" href="/author/sswitte">
+													
+														Sarah Witte
+													
+														</a>
+													
+												</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="entry-summary">
+								<p>On the southwest corner of 113th and Amsterdam stand two of the older buildings in Morningside Heights:  the Croton Aqueduct 113th Street gatehouse (1876)  and the  Engine Company No. 47 firehouse (1890).   I am researching  the role that the aqueduct and the fire department played in the early development...</p>
+							</div>
+
+							<div class="more-link-wrapper">
+								<a href="/fire-and-water/" class="more-link">Read More</a>
+							</div>
+						</article>
+
+					
+						<article class="post type-post status-publish format-standard hentry category-copyright">
+							<div class="entry-header-wrapper entry-header-wrapper-archive">
+								<div class="entry-meta entry-meta-header-before">
+									<ul>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/category/four-things">four-things</a>
+											</span>
+										</li>
+										
+										
+									</ul>
+								</div>
+
+								<header class="entry-header">
+									<h1 class="entry-title"><a href="/enhancing-our-wordpress-blog/" rel="bookmark">Improving Our WordPress Blog</a></h1>
+								</header>
+
+								<div class="entry-meta entry-meta-header-after">
+									<ul>
+										<li>
+											<span class="posted-on">
+												<a href="/enhancing-our-wordpress-blog/" rel="bookmark">
+													<time class="entry-date published" datetime="2013-08-21 00:00:00 -0400">August 21, 13</time>
+												</a>
+											</span>
+										</li>
+										<li>
+											<span class="byline"> by
+												<span class="author vcard">
+													
+													
+														<a class="url fn n" href="/author/sswitte">
+													
+														Sarah Witte
+													
+														</a>
+													
+												</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="entry-summary">
+								<p>Tuesday’s session was primarily about how to deal with a specific issue in our developing librarian blog.  We decided that we would like to share our “four things” among ourselves (and with anyone else who is interested), but we didn’t want to overwhelm the blog with repetitive content. Bob and...</p>
+							</div>
+
+							<div class="more-link-wrapper">
+								<a href="/enhancing-our-wordpress-blog/" class="more-link">Read More</a>
+							</div>
+						</article>
+
+					
+						<article class="post type-post status-publish format-standard hentry category-copyright">
+							<div class="entry-header-wrapper entry-header-wrapper-archive">
+								<div class="entry-meta entry-meta-header-before">
+									<ul>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/category/four-things">four-things</a>
+											</span>
+										</li>
+										
+										
+									</ul>
+								</div>
+
+								<header class="entry-header">
+									<h1 class="entry-title"><a href="/git-github-branches-forks-commits-and-slas/" rel="bookmark">Git, Github, branches, forks, commits, and SLAs</a></h1>
+								</header>
+
+								<div class="entry-meta entry-meta-header-after">
+									<ul>
+										<li>
+											<span class="posted-on">
+												<a href="/git-github-branches-forks-commits-and-slas/" rel="bookmark">
+													<time class="entry-date published" datetime="2013-09-17 00:00:00 -0400">September 17, 13</time>
+												</a>
+											</span>
+										</li>
+										<li>
+											<span class="byline"> by
+												<span class="author vcard">
+													
+													
+														<a class="url fn n" href="/author/sswitte">
+													
+														Sarah Witte
+													
+														</a>
+													
+												</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="entry-summary">
+								<p>This morning we had an introduction to Git and to source and version control. Git is open source software that will allow us to preserve and work on our code in a distributed environment. This afternoon Stuart Marquis discussed Git and Github in CLIO development. He showed how each JIRA...</p>
+							</div>
+
+							<div class="more-link-wrapper">
+								<a href="/git-github-branches-forks-commits-and-slas/" class="more-link">Read More</a>
+							</div>
+						</article>
+
+					
+						<article class="post type-post status-publish format-standard hentry category-copyright">
+							<div class="entry-header-wrapper entry-header-wrapper-archive">
+								<div class="entry-meta entry-meta-header-before">
+									<ul>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/category/four-things">four-things</a>
+											</span>
+										</li>
+										
+										
+									</ul>
+								</div>
+
+								<header class="entry-header">
+									<h1 class="entry-title"><a href="/gitting-up-to-speed/" rel="bookmark">Gitting Up to Speed</a></h1>
+								</header>
+
+								<div class="entry-meta entry-meta-header-after">
+									<ul>
+										<li>
+											<span class="posted-on">
+												<a href="/gitting-up-to-speed/" rel="bookmark">
+													<time class="entry-date published" datetime="2013-10-01 00:00:00 -0400">October 01, 13</time>
+												</a>
+											</span>
+										</li>
+										<li>
+											<span class="byline"> by
+												<span class="author vcard">
+													
+													
+														<a class="url fn n" href="/author/sswitte">
+													
+														Sarah Witte
+													
+														</a>
+													
+												</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="entry-summary">
+								<p>Today we got our hands on Git. We’d already installed the software on our office desktops, but it wasn’t installed on the 306 workstations, so we needed to download and install it on the DHC computers for our group session. Four things: snake_case and CamelCase. We used snake_case to name our...</p>
+							</div>
+
+							<div class="more-link-wrapper">
+								<a href="/gitting-up-to-speed/" class="more-link">Read More</a>
+							</div>
+						</article>
+
+					
+						<article class="post type-post status-publish format-standard hentry category-copyright">
+							<div class="entry-header-wrapper entry-header-wrapper-archive">
+								<div class="entry-meta entry-meta-header-before">
+									<ul>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/category/four-things">four-things</a>
+											</span>
+										</li>
+										
+										
+									</ul>
+								</div>
+
+								<header class="entry-header">
+									<h1 class="entry-title"><a href="/commits-and-syncs/" rel="bookmark">Commits and Syncs</a></h1>
+								</header>
+
+								<div class="entry-meta entry-meta-header-after">
+									<ul>
+										<li>
+											<span class="posted-on">
+												<a href="/commits-and-syncs/" rel="bookmark">
+													<time class="entry-date published" datetime="2013-10-15 00:00:00 -0400">October 15, 13</time>
+												</a>
+											</span>
+										</li>
+										<li>
+											<span class="byline"> by
+												<span class="author vcard">
+													
+													
+														<a class="url fn n" href="/author/sswitte">
+													
+														Sarah Witte
+													
+														</a>
+													
+												</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="entry-summary">
+								<p>Today I learned to:
+1. create a GIT repository
+2. add a file to the repository
+3. Make a commit &amp; roll back the commit
+4. Sync with github and publish
+</p>
+							</div>
+
+							<div class="more-link-wrapper">
+								<a href="/commits-and-syncs/" class="more-link">Read More</a>
+							</div>
+						</article>
+
+					
+						<article class="post type-post status-publish format-standard hentry category-copyright">
+							<div class="entry-header-wrapper entry-header-wrapper-archive">
+								<div class="entry-meta entry-meta-header-before">
+									<ul>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/category/four-things">four-things</a>
+											</span>
+										</li>
+										
+										
+									</ul>
+								</div>
+
+								<header class="entry-header">
+									<h1 class="entry-title"><a href="/site-design/" rel="bookmark">Site design</a></h1>
+								</header>
+
+								<div class="entry-meta entry-meta-header-after">
+									<ul>
+										<li>
+											<span class="posted-on">
+												<a href="/site-design/" rel="bookmark">
+													<time class="entry-date published" datetime="2013-10-29 00:00:00 -0400">October 29, 13</time>
+												</a>
+											</span>
+										</li>
+										<li>
+											<span class="byline"> by
+												<span class="author vcard">
+													
+													
+														<a class="url fn n" href="/author/sswitte">
+													
+														Sarah Witte
+													
+														</a>
+													
+												</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="entry-summary">
+								<p>Everything you do in design should have a reason. Basic elements of a web page: header, body, sidebar, footer Dividing horizontal space in thirds is eye pleasing and harmonious We will need to design five types of pages: front page, item page, collection page, exhibit page, and neatline exhibit page...</p>
+							</div>
+
+							<div class="more-link-wrapper">
+								<a href="/site-design/" class="more-link">Read More</a>
+							</div>
+						</article>
+
+					
+						<article class="post type-post status-publish format-standard hentry category-copyright">
+							<div class="entry-header-wrapper entry-header-wrapper-archive">
+								<div class="entry-meta entry-meta-header-before">
+									<ul>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/category/evaluating-new-technologies">evaluating new technologies</a>
+											</span>
+										</li>
+										
+										
+									</ul>
+								</div>
+
+								<header class="entry-header">
+									<h1 class="entry-title"><a href="/stemming-and-the-library-catalog/" rel="bookmark">Stemming and the Library Catalog</a></h1>
+								</header>
+
+								<div class="entry-meta entry-meta-header-after">
+									<ul>
+										<li>
+											<span class="posted-on">
+												<a href="/stemming-and-the-library-catalog/" rel="bookmark">
+													<time class="entry-date published" datetime="2013-11-01 00:00:00 -0400">November 01, 13</time>
+												</a>
+											</span>
+										</li>
+										<li>
+											<span class="byline"> by
+												<span class="author vcard">
+													
+													
+														<a class="url fn n" href="/author/sswitte">
+													
+														Sarah Witte
+													
+														</a>
+													
+												</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="entry-summary">
+								<p>When this site went live,  we all agreed that we would post regularly.  A schedule was proposed and circulated, and we all signed up to post once every five weeks.  With enthusiasm, I signed up to post in October.   The topics were left open, and now that the semester is...</p>
+							</div>
+
+							<div class="more-link-wrapper">
+								<a href="/stemming-and-the-library-catalog/" class="more-link">Read More</a>
+							</div>
+						</article>
+
+					
+						<article class="post type-post status-publish format-standard hentry category-copyright">
+							<div class="entry-header-wrapper entry-header-wrapper-archive">
+								<div class="entry-meta entry-meta-header-before">
+									<ul>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/category/four-things">four-things</a>
+											</span>
+										</li>
+										
+										
+									</ul>
+								</div>
+
+								<header class="entry-header">
+									<h1 class="entry-title"><a href="/design/" rel="bookmark">Design</a></h1>
+								</header>
+
+								<div class="entry-meta entry-meta-header-after">
+									<ul>
+										<li>
+											<span class="posted-on">
+												<a href="/design/" rel="bookmark">
+													<time class="entry-date published" datetime="2013-12-17 00:00:00 -0500">December 17, 13</time>
+												</a>
+											</span>
+										</li>
+										<li>
+											<span class="byline"> by
+												<span class="author vcard">
+													
+													
+														<a class="url fn n" href="/author/sswitte">
+													
+														Sarah Witte
+													
+														</a>
+													
+												</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="entry-summary">
+								<p>Alex reprised the Design session from 10/29 because so many of us were out that day. Today’s four things: the most important design elements for two-dimensional design are: color, typography, layout The difference between overlapping and non-overlapping design Responsive design instructions, for laptop: 900 px, for tablet: 250 px, for phone: 100...</p>
+							</div>
+
+							<div class="more-link-wrapper">
+								<a href="/design/" class="more-link">Read More</a>
+							</div>
+						</article>
+
+					
+						<article class="post type-post status-publish format-standard hentry category-copyright">
+							<div class="entry-header-wrapper entry-header-wrapper-archive">
+								<div class="entry-meta entry-meta-header-before">
+									<ul>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/category/four-things">four-things</a>
+											</span>
+										</li>
+										
+										
+									</ul>
+								</div>
+
+								<header class="entry-header">
+									<h1 class="entry-title"><a href="/php-intro/" rel="bookmark">PHP Intro</a></h1>
+								</header>
+
+								<div class="entry-meta entry-meta-header-after">
+									<ul>
+										<li>
+											<span class="posted-on">
+												<a href="/php-intro/" rel="bookmark">
+													<time class="entry-date published" datetime="2014-01-24 00:00:00 -0500">January 24, 14</time>
+												</a>
+											</span>
+										</li>
+										<li>
+											<span class="byline"> by
+												<span class="author vcard">
+													
+													
+														<a class="url fn n" href="/author/sswitte">
+													
+														Sarah Witte
+													
+														</a>
+													
+												</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="entry-summary">
+								<p>We had a great PHP intro from Alex. I really liked the way Alex taught the class. He had about 7 slides and with each slide, he showed us some code and then asked us what we thought it would do.  Then we pasted the code in a scripting site to...</p>
+							</div>
+
+							<div class="more-link-wrapper">
+								<a href="/php-intro/" class="more-link">Read More</a>
+							</div>
+						</article>
+
+					
+						<article class="post type-post status-publish format-standard hentry category-copyright">
+							<div class="entry-header-wrapper entry-header-wrapper-archive">
+								<div class="entry-meta entry-meta-header-before">
+									<ul>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/category/four-things">four-things</a>
+											</span>
+										</li>
+										
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/tag/git">#git</a>
+											</span>
+										</li>
+										
+									</ul>
+								</div>
+
+								<header class="entry-header">
+									<h1 class="entry-title"><a href="/git-reset-hard-origin/" rel="bookmark">git reset --hard origin</a></h1>
+								</header>
+
+								<div class="entry-meta entry-meta-header-after">
+									<ul>
+										<li>
+											<span class="posted-on">
+												<a href="/git-reset-hard-origin/" rel="bookmark">
+													<time class="entry-date published" datetime="2014-05-09 00:00:00 -0400">May 09, 14</time>
+												</a>
+											</span>
+										</li>
+										<li>
+											<span class="byline"> by
+												<span class="author vcard">
+													
+													
+														<a class="url fn n" href="/author/sswitte">
+													
+														Sarah Witte
+													
+														</a>
+													
+												</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="entry-summary">
+								<p>Meredith, Bob, and I met this afternoon.  Our assignment from Alex: Put an issue on github create an item in our individual omeka installations. Then back up the database. create a branch called playground and break the site I ran into some problems early on.  My commits were out of...</p>
+							</div>
+
+							<div class="more-link-wrapper">
+								<a href="/git-reset-hard-origin/" class="more-link">Read More</a>
+							</div>
+						</article>
+
+					
+						<article class="post type-post status-publish format-standard hentry category-copyright">
+							<div class="entry-header-wrapper entry-header-wrapper-archive">
+								<div class="entry-meta entry-meta-header-before">
+									<ul>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/category/development">development</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/category/skill-development">skill development</a>
+											</span>
+										</li>
+										
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/tag/git">#git</a>
+											</span>
+										</li>
+										
+									</ul>
+								</div>
+
+								<header class="entry-header">
+									<h1 class="entry-title"><a href="/merging-paths/" rel="bookmark">Merging Paths</a></h1>
+								</header>
+
+								<div class="entry-meta entry-meta-header-after">
+									<ul>
+										<li>
+											<span class="posted-on">
+												<a href="/merging-paths/" rel="bookmark">
+													<time class="entry-date published" datetime="2014-06-05 00:00:00 -0400">June 05, 14</time>
+												</a>
+											</span>
+										</li>
+										<li>
+											<span class="byline"> by
+												<span class="author vcard">
+													
+													
+														<a class="url fn n" href="/author/sswitte">
+													
+														Sarah Witte
+													
+														</a>
+													
+												</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="entry-summary">
+								<p>Meredith Levin, Nick Patterson, Bob Scott and Sarah Witte (photographer) in the Studio@Butler The developers had a great meeting this morning.  We went through Alex’s assignments, and are all up to speed on the first two, and close on the third. It has been a month since we’ve all met;...</p>
+							</div>
+
+							<div class="more-link-wrapper">
+								<a href="/merging-paths/" class="more-link">Read More</a>
+							</div>
+						</article>
+
+					
+
+				</main>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+
+<!-- CULTNBW START -->
+<script type="text/javascript">
+  CULh_colorfg = '#303030';
+  CULh_colorbg = '#606060';
+</script>
+<script src="//cdn.cul.columbia.edu/ldpd-toolkit/widgets/cultnbw.min.js"></script>
+<!-- /CULTNBW END -->
+
+</div></body>
