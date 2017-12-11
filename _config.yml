@@ -4,26 +4,23 @@ description:  The Developing Librarian Project
 version:      1.0.0
 repo:         https://github.com/cul/ldpd-devlib.git
 
-url:          "https://developinglibrarian.library.columbia.edu"
+url:          ""
 baseurl:      ""
+gh-baseurl:   "/ldpd-devlib"
 
 markdown:     kramdown
-exclude:      [ Gemfile*, vendor ]
+exclude:      [ Gemfile*, vendor, spec, Rakefile, package*, README* ]
 
-# page generator settings
 collections:
     wposts:
       source: posts.yaml
       output: true
-      yml_split: false
-      name_key: title
       directory: wposts
       layout: post
     pages:
       output: true
 
-# rspec test settings
-search_tests:
+quoll:
   main:
     page: search.html
     terms:
