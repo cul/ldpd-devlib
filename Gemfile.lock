@@ -1,5 +1,6 @@
-PATH
-  remote: _wax_tasks
+GIT
+  remote: https://github.com/mnyrop/wax_tasks
+  revision: 7499999cb6ac33293905211d416a9730aa5ba7d1
   specs:
     wax_tasks (1.0.0.pre)
       iiif_s3 (~> 0.1)
