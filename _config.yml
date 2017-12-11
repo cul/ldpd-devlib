@@ -35,7 +35,7 @@ scripts:
   - name: jquery-migrate
     src:  https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.0.1/jquery-migrate.min.js
   - name: lunr
-    src:  https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.1.4/lunr.min.js
+    src:  https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.1.5/lunr.min.js
   - name: enquire.js
     src:  https://cdnjs.cloudflare.com/ajax/libs/enquire.js/2.1.6/enquire.min.js
   - name: superfish
