@@ -6,6 +6,6 @@
 Stealth jekyll replacement of devlib wordpress site, with liquified wp theme + functionality.
 Includes: author boxes, post loops, tagging, categories, and Lunr search.
 
-`master` branch is for deploying to [s3](https://developinglibrarian.library.columbia.edu) and `gh-pages` branch deploys to the test instance hosted with [github pages](https://cul.github.io/ldpd-devlib/). 
+`master` branch contains working files, `s3` branch has compiled site files for deploying to [s3](https://developinglibrarian.library.columbia.edu) and `gh-pages` branch deploys to the test instance hosted with [github pages](https://cul.github.io/ldpd-devlib/). 
 
-(The only differences between these branches are that: `master` includes the production url and no baseurl, and `gh-pages` includes no url and the baseurl `/ldpd-devlib/` for deploying from `_config.yml` and testing from `.travis.yml`.)
+*The only differences between the latter branches are that: `s3` includes the production `baseurl` (if needed), and `gh-pages` includes the `gh-baseurl` (`/ldpd-devlib/`) for deploying from `_config.yml`*
