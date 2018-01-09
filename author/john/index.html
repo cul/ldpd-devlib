@@ -1,0 +1,2431 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Breaking the Code &#8211; The Developing Librarian Project</title>
+
+  <link rel="profile" href="http://gmpg.org/xfn/11">
+
+  <link rel="shortcut icon" type="image/png" href="/ldpd-devlib/favicon.png"/>
+
+  <link rel='dns-prefetch' href='//fonts.googleapis.com'/>
+  <link rel='dns-prefetch' href='//s.w.org'/>
+
+  <!--style-->
+  <link rel='stylesheet' id='retina-bootstrap-css' href='/ldpd-devlib/css/bootstrap.css' type='text/css' media='all'/>
+  <link rel='stylesheet' id='retina-fontawesome-css' href='/ldpd-devlib/css/font-awesome.min.css' type='text/css' media='all'/>
+  <link rel='stylesheet' id='retina-fonts-css'  href='https://fonts.googleapis.com/css?family=Playfair+Display%3A400%2C700%2C400italic%2C700italic%7CLato%3A400%2C400italic%2C700%2C700italic&#038;subset=latin%2Clatin-ext' type='text/css' media='all'/>
+  <link rel='stylesheet' id='retina-style-css' href='/ldpd-devlib/css/style.css' type='text/css' media='all'/>
+  <link rel='stylesheet' id='foundation-flickity-css' data-context="foundation-flickity-css" href='/ldpd-devlib/css/foundation-flickity.css' type='text/css' media='all'/>
+  <link rel='stylesheet' id="foundation-slideout-css" data-context="foundation-slideout-css" href='/ldpd-devlib/css/foundation-slideout.css' type='text/css' media='all'/>
+  <link rel='stylesheet' id='custom-css' href='/ldpd-devlib/css/custom.css' type='text/css' media='all'/>
+
+  <!--cdn scripts-->
+  
+    <script type='text/javascript' id="jquery" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  
+    <script type='text/javascript' id="jquery-migrate" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.0.1/jquery-migrate.min.js"></script>
+  
+    <script type='text/javascript' id="lunr" src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.1.5/lunr.min.js"></script>
+  
+    <script type='text/javascript' id="enquire.js" src="https://cdnjs.cloudflare.com/ajax/libs/enquire.js/2.1.6/enquire.min.js"></script>
+  
+    <script type='text/javascript' id="superfish" src="https://cdnjs.cloudflare.com/ajax/libs/superfish/1.7.9/js/superfish.min.js"></script>
+  
+  <!--local scripts-->
+  <script type='text/javascript' id="retina-custom" src="/ldpd-devlib/js/custom.js"></script>
+  <script type="text/javascript">
+    jQuery.migrateMute = true // silence annoying logs on poltergeist tests
+  </script>
+</head>
+
+<body class="home blog group-blog hfeed has-site-branding has-custom-header has-no-sidebar">
+<div id="page" class="site-wrapper site">
+<header id="masthead" class="site-header" role="banner">
+<div class="container">
+  <div class="row">
+    <div class="col-xl-12">
+
+      <div class="site-header-inside">
+
+        <div class="site-branding-wrapper">
+          <div class="site-logo-wrapper"></div>
+          <div class="site-branding">
+            <h2 class="site-title">
+              <a href="/ldpd-devlib/" title="Breaking the Code" rel="home">Breaking the Code</a>
+            </h2>
+            <h3 class="site-description">The Developing Librarian Project</h3>
+          </div>
+        </div><!-- .site-branding-wrapper -->
+
+        <div class="toggle-menu-wrapper">
+          <a href="#" title="Menu" class="toggle-menu-control">
+            <span class="screen-reader-text">Menu</span>
+          </a>
+        </div>
+
+      </div><!-- .site-header-inside -->
+
+    </div><!-- .col-xl-12 -->
+  </div><!-- .row -->
+</div><!-- .container -->
+</header><!-- #masthead -->
+
+<nav id="site-navigation" class="main-navigation" role="navigation">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12">
+
+        <div class="main-navigation-inside">
+
+          <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+          <div class="site-primary-menu">
+            <ul class="primary-menu sf-menu">
+              <li class="current_page_item"><a href="/ldpd-devlib/">Home</a></li>
+              <li class="page_item page-item-106"><a href="/ldpd-devlib/about">About</a></li>
+              <li class="page_item page-item-40"><a href="/ldpd-devlib/charter">Charter</a></li>
+              <li class="page_item page-item-245"><a href="/ldpd-devlib/people">People</a></li>
+              <li class="page_item page-item-1297"><a href="/ldpd-devlib/publications">Publications and Presentations</a></li>
+              <li class="page_item page-item-124"><a href="/ldpd-devlib/roadmap">Roadmap</a></li>
+              <li class="page_item page-item-236"><a href="/ldpd-devlib/the-dhc">The DHC</a></li>
+              <li class="page_item page-item-236"><a href="/ldpd-devlib/search">Search</a></li>
+            </ul>
+          </div>
+
+        </div><!-- .main-navigation-inside -->
+
+      </div><!-- .col-xl-12 -->
+    </div><!-- .row -->
+  </div><!-- .container -->
+</nav><!-- .main-navigation -->
+
+<div id="content" class="site-content">
+	<div class="container">
+
+		<h1>Author: John L. Tofanelli</h1>
+		<br/><br/>
+		<div class="row">
+			<div id="primary" class="content-area col-xl-12">
+				<main id="main" class="site-main" role="main">
+          
+					
+						<article class="post type-post status-publish format-standard hentry category-copyright">
+							<div class="entry-header-wrapper entry-header-wrapper-archive">
+								<div class="entry-meta entry-meta-header-before">
+									<ul>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/metadata">metadata</a>
+											</span>
+										</li>
+										
+										
+									</ul>
+								</div>
+
+								<header class="entry-header">
+									<h1 class="entry-title"><a href="/ldpd-devlib/this-great-building/" rel="bookmark">This great building</a></h1>
+								</header>
+
+								<div class="entry-meta entry-meta-header-after">
+									<ul>
+										<li>
+											<span class="posted-on">
+												<a href="/ldpd-devlib/this-great-building/" rel="bookmark">
+													<time class="entry-date published" datetime="2013-03-19 00:00:00 -0400">March 19, 13</time>
+												</a>
+											</span>
+										</li>
+										<li>
+											<span class="byline"> by
+												<span class="author vcard">
+													
+													
+														<a class="url fn n" href="/ldpd-devlib/author/john">
+													
+														John L. Tofanelli
+													
+														</a>
+													
+												</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="entry-summary">
+								<p>It is fascinating to look at the variety of documents connected with the early history of the Cathedral Church of Saint John the Divine. The guidebooks and historical accounts are, of course, interesting; but sermons preached there can also be highly revealing of how the meaning of the cathedral was...</p>
+							</div>
+
+							<div class="more-link-wrapper">
+								<a href="/ldpd-devlib/this-great-building/" class="more-link">Read More</a>
+							</div>
+						</article>
+
+					
+						<article class="post type-post status-publish format-standard hentry category-copyright">
+							<div class="entry-header-wrapper entry-header-wrapper-archive">
+								<div class="entry-meta entry-meta-header-before">
+									<ul>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/methods">methods</a>
+											</span>
+										</li>
+										
+										
+									</ul>
+								</div>
+
+								<header class="entry-header">
+									<h1 class="entry-title"><a href="/ldpd-devlib/digital-mats/" rel="bookmark">Digital Welcome Mats</a></h1>
+								</header>
+
+								<div class="entry-meta entry-meta-header-after">
+									<ul>
+										<li>
+											<span class="posted-on">
+												<a href="/ldpd-devlib/digital-mats/" rel="bookmark">
+													<time class="entry-date published" datetime="2013-03-20 00:00:00 -0400">March 20, 13</time>
+												</a>
+											</span>
+										</li>
+										<li>
+											<span class="byline"> by
+												<span class="author vcard">
+													
+													
+														<a class="url fn n" href="/ldpd-devlib/author/john">
+													
+														John L. Tofanelli
+													
+														</a>
+													
+												</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="entry-summary">
+								<p>We were talking yesterday about the purpose of our Morningside Heights historical Web site. What is the overarching vision or the story we are trying to tell? How do we impart any kind of vision to users? One suggestion was that we include narrative elements–for example each compiler of a...</p>
+							</div>
+
+							<div class="more-link-wrapper">
+								<a href="/ldpd-devlib/digital-mats/" class="more-link">Read More</a>
+							</div>
+						</article>
+
+					
+						<article class="post type-post status-publish format-standard hentry category-copyright">
+							<div class="entry-header-wrapper entry-header-wrapper-archive">
+								<div class="entry-meta entry-meta-header-before">
+									<ul>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/project-description">project description</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/research">research</a>
+											</span>
+										</li>
+										
+										
+									</ul>
+								</div>
+
+								<header class="entry-header">
+									<h1 class="entry-title"><a href="/ldpd-devlib/a-spiritual-building/" rel="bookmark">A Spiritual Building</a></h1>
+								</header>
+
+								<div class="entry-meta entry-meta-header-after">
+									<ul>
+										<li>
+											<span class="posted-on">
+												<a href="/ldpd-devlib/a-spiritual-building/" rel="bookmark">
+													<time class="entry-date published" datetime="2013-06-17 00:00:00 -0400">June 17, 13</time>
+												</a>
+											</span>
+										</li>
+										<li>
+											<span class="byline"> by
+												<span class="author vcard">
+													
+													
+														<a class="url fn n" href="/ldpd-devlib/author/john">
+													
+														John L. Tofanelli
+													
+														</a>
+													
+												</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="entry-summary">
+								<p>In his Introduction to The Cathedral Church of St John the Divine (1916), the Very Rev. William Mercer Grosvenor, then Dean of the Cathedral, wrote:  “It is evident that we are at the very beginning of what we believe to be a great future for this Cathedral. We are trying...</p>
+							</div>
+
+							<div class="more-link-wrapper">
+								<a href="/ldpd-devlib/a-spiritual-building/" class="more-link">Read More</a>
+							</div>
+						</article>
+
+					
+						<article class="post type-post status-publish format-standard hentry category-copyright">
+							<div class="entry-header-wrapper entry-header-wrapper-archive">
+								<div class="entry-meta entry-meta-header-before">
+									<ul>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/four-things">four-things</a>
+											</span>
+										</li>
+										
+										
+									</ul>
+								</div>
+
+								<header class="entry-header">
+									<h1 class="entry-title"><a href="/ldpd-devlib/you-can-go-home-again/" rel="bookmark">You Can Go Home Again</a></h1>
+								</header>
+
+								<div class="entry-meta entry-meta-header-after">
+									<ul>
+										<li>
+											<span class="posted-on">
+												<a href="/ldpd-devlib/you-can-go-home-again/" rel="bookmark">
+													<time class="entry-date published" datetime="2013-08-06 00:00:00 -0400">August 06, 13</time>
+												</a>
+											</span>
+										</li>
+										<li>
+											<span class="byline"> by
+												<span class="author vcard">
+													
+													
+														<a class="url fn n" href="/ldpd-devlib/author/john">
+													
+														John L. Tofanelli
+													
+														</a>
+													
+												</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="entry-summary">
+								<p>I thought I knew the four things I had learned from today’s session. They are listed below. But then, when I read Barbara’s post, ‘Revisiting Requirements Guidelines,’ I realized that we really were returning in today’s session to crucial principles from some of our earliest meetings.  In one of those...</p>
+							</div>
+
+							<div class="more-link-wrapper">
+								<a href="/ldpd-devlib/you-can-go-home-again/" class="more-link">Read More</a>
+							</div>
+						</article>
+
+					
+						<article class="post type-post status-publish format-standard hentry category-copyright">
+							<div class="entry-header-wrapper entry-header-wrapper-archive">
+								<div class="entry-meta entry-meta-header-before">
+									<ul>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/four-things">four-things</a>
+											</span>
+										</li>
+										
+										
+									</ul>
+								</div>
+
+								<header class="entry-header">
+									<h1 class="entry-title"><a href="/ldpd-devlib/learning-and-teaching-and/" rel="bookmark">Learning and Teaching and . . .</a></h1>
+								</header>
+
+								<div class="entry-meta entry-meta-header-after">
+									<ul>
+										<li>
+											<span class="posted-on">
+												<a href="/ldpd-devlib/learning-and-teaching-and/" rel="bookmark">
+													<time class="entry-date published" datetime="2013-08-20 00:00:00 -0400">August 20, 13</time>
+												</a>
+											</span>
+										</li>
+										<li>
+											<span class="byline"> by
+												<span class="author vcard">
+													
+													
+														<a class="url fn n" href="/ldpd-devlib/author/john">
+													
+														John L. Tofanelli
+													
+														</a>
+													
+												</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="entry-summary">
+								<p>In today’s session I and Bob Scott reported to the group on our experience working with Alex Gil to implement a site enhancement. The site enhancement was the introduction of a distinct page titled ‘Four Things’ to which any posting assigned the ‘four-things’ category (as its sole category) would go...</p>
+							</div>
+
+							<div class="more-link-wrapper">
+								<a href="/ldpd-devlib/learning-and-teaching-and/" class="more-link">Read More</a>
+							</div>
+						</article>
+
+					
+						<article class="post type-post status-publish format-standard hentry category-copyright">
+							<div class="entry-header-wrapper entry-header-wrapper-archive">
+								<div class="entry-meta entry-meta-header-before">
+									<ul>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/meeting-overview">meeting overview</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/metadata">metadata</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/skill-development">skill development</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/tutorials">tutorials</a>
+											</span>
+										</li>
+										
+										
+									</ul>
+								</div>
+
+								<header class="entry-header">
+									<h1 class="entry-title"><a href="/ldpd-devlib/group-meetings-aug-26-and-sept-9/" rel="bookmark">Group Meetings Aug 26 and Sept 9</a></h1>
+								</header>
+
+								<div class="entry-meta entry-meta-header-after">
+									<ul>
+										<li>
+											<span class="posted-on">
+												<a href="/ldpd-devlib/group-meetings-aug-26-and-sept-9/" rel="bookmark">
+													<time class="entry-date published" datetime="2013-09-09 00:00:00 -0400">September 09, 13</time>
+												</a>
+											</span>
+										</li>
+										<li>
+											<span class="byline"> by
+												<span class="author vcard">
+													
+													
+														<a class="url fn n" href="/ldpd-devlib/author/john">
+													
+														John L. Tofanelli
+													
+														</a>
+													
+												</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="entry-summary">
+								<p>Each of these meetings was a combination of instruction with hands on workshop. For 8/26 meeting Bob Scott instructed the group on some finer points of Zotero and worked with individuals on questions arising as they contributed bibliographic entries to folders in our Group Library for the Morningside Project. For...</p>
+							</div>
+
+							<div class="more-link-wrapper">
+								<a href="/ldpd-devlib/group-meetings-aug-26-and-sept-9/" class="more-link">Read More</a>
+							</div>
+						</article>
+
+					
+						<article class="post type-post status-publish format-standard hentry category-copyright">
+							<div class="entry-header-wrapper entry-header-wrapper-archive">
+								<div class="entry-meta entry-meta-header-before">
+									<ul>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/four-things">four-things</a>
+											</span>
+										</li>
+										
+										
+									</ul>
+								</div>
+
+								<header class="entry-header">
+									<h1 class="entry-title"><a href="/ldpd-devlib/responsible-site-development/" rel="bookmark">Responsible Site Development</a></h1>
+								</header>
+
+								<div class="entry-meta entry-meta-header-after">
+									<ul>
+										<li>
+											<span class="posted-on">
+												<a href="/ldpd-devlib/responsible-site-development/" rel="bookmark">
+													<time class="entry-date published" datetime="2013-09-17 00:00:00 -0400">September 17, 13</time>
+												</a>
+											</span>
+										</li>
+										<li>
+											<span class="byline"> by
+												<span class="author vcard">
+													
+													
+														<a class="url fn n" href="/ldpd-devlib/author/john">
+													
+														John L. Tofanelli
+													
+														</a>
+													
+												</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="entry-summary">
+								<p>Four things learned today 9-17-13 in conversation with guest speaker Breck Witte, Director of Library Information Technology Office. Columbia Libraries wants to extend developer access to people who are not full-time developers. Since we don’t do this type of work all the time, we need to be extra careful to...</p>
+							</div>
+
+							<div class="more-link-wrapper">
+								<a href="/ldpd-devlib/responsible-site-development/" class="more-link">Read More</a>
+							</div>
+						</article>
+
+					
+						<article class="post type-post status-publish format-standard hentry category-copyright">
+							<div class="entry-header-wrapper entry-header-wrapper-archive">
+								<div class="entry-meta entry-meta-header-before">
+									<ul>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/four-things">four-things</a>
+											</span>
+										</li>
+										
+										
+									</ul>
+								</div>
+
+								<header class="entry-header">
+									<h1 class="entry-title"><a href="/ldpd-devlib/gitting-to-know-you/" rel="bookmark">Gitting to Know You</a></h1>
+								</header>
+
+								<div class="entry-meta entry-meta-header-after">
+									<ul>
+										<li>
+											<span class="posted-on">
+												<a href="/ldpd-devlib/gitting-to-know-you/" rel="bookmark">
+													<time class="entry-date published" datetime="2013-10-01 00:00:00 -0400">October 01, 13</time>
+												</a>
+											</span>
+										</li>
+										<li>
+											<span class="byline"> by
+												<span class="author vcard">
+													
+													
+														<a class="url fn n" href="/ldpd-devlib/author/john">
+													
+														John L. Tofanelli
+													
+														</a>
+													
+												</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="entry-summary">
+								<p>Four things learned today, Oct 1, 2013 When working in Github: “commit often.” Commit every time you’ve made a substantial change. Each time that you commit, you create a version that can be rolled back to in the future. The description field is Optional when you commit. When you are...</p>
+							</div>
+
+							<div class="more-link-wrapper">
+								<a href="/ldpd-devlib/gitting-to-know-you/" class="more-link">Read More</a>
+							</div>
+						</article>
+
+					
+						<article class="post type-post status-publish format-standard hentry category-copyright">
+							<div class="entry-header-wrapper entry-header-wrapper-archive">
+								<div class="entry-meta entry-meta-header-before">
+									<ul>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/four-things">four-things</a>
+											</span>
+										</li>
+										
+										
+									</ul>
+								</div>
+
+								<header class="entry-header">
+									<h1 class="entry-title"><a href="/ldpd-devlib/git-and-github-revisited/" rel="bookmark">Git and GitHub revisited</a></h1>
+								</header>
+
+								<div class="entry-meta entry-meta-header-after">
+									<ul>
+										<li>
+											<span class="posted-on">
+												<a href="/ldpd-devlib/git-and-github-revisited/" rel="bookmark">
+													<time class="entry-date published" datetime="2013-10-15 00:00:00 -0400">October 15, 13</time>
+												</a>
+											</span>
+										</li>
+										<li>
+											<span class="byline"> by
+												<span class="author vcard">
+													
+													
+														<a class="url fn n" href="/ldpd-devlib/author/john">
+													
+														John L. Tofanelli
+													
+														</a>
+													
+												</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="entry-summary">
+								<p>1. The difference between Git and GitHub is as follows: Git is a tool to manage your source code history. It lives in your computer. GitHub is a hosting service that lives in the cloud. 2. A repository is a set of files and directories; an historical record of changes;...</p>
+							</div>
+
+							<div class="more-link-wrapper">
+								<a href="/ldpd-devlib/git-and-github-revisited/" class="more-link">Read More</a>
+							</div>
+						</article>
+
+					
+						<article class="post type-post status-publish format-standard hentry category-copyright">
+							<div class="entry-header-wrapper entry-header-wrapper-archive">
+								<div class="entry-meta entry-meta-header-before">
+									<ul>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/four-things">four-things</a>
+											</span>
+										</li>
+										
+										
+									</ul>
+								</div>
+
+								<header class="entry-header">
+									<h1 class="entry-title"><a href="/ldpd-devlib/web-design-2/" rel="bookmark">Web design</a></h1>
+								</header>
+
+								<div class="entry-meta entry-meta-header-after">
+									<ul>
+										<li>
+											<span class="posted-on">
+												<a href="/ldpd-devlib/web-design-2/" rel="bookmark">
+													<time class="entry-date published" datetime="2013-12-17 00:00:00 -0500">December 17, 13</time>
+												</a>
+											</span>
+										</li>
+										<li>
+											<span class="byline"> by
+												<span class="author vcard">
+													
+													
+														<a class="url fn n" href="/ldpd-devlib/author/john">
+													
+														John L. Tofanelli
+													
+														</a>
+													
+												</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="entry-summary">
+								<p>Four things learned in the session today December 17, 2013: Responsive design responds to variability in screen size. The designer can encode multiple sets of instructions based on different screen sizes. These instructions determine how the design will configure itself for each screen size. Overlapping elements are a common feature...</p>
+							</div>
+
+							<div class="more-link-wrapper">
+								<a href="/ldpd-devlib/web-design-2/" class="more-link">Read More</a>
+							</div>
+						</article>
+
+					
+						<article class="post type-post status-publish format-standard hentry category-copyright">
+							<div class="entry-header-wrapper entry-header-wrapper-archive">
+								<div class="entry-meta entry-meta-header-before">
+									<ul>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/four-things">four-things</a>
+											</span>
+										</li>
+										
+										
+									</ul>
+								</div>
+
+								<header class="entry-header">
+									<h1 class="entry-title"><a href="/ldpd-devlib/four-things-on-php/" rel="bookmark">Four Things on PHP</a></h1>
+								</header>
+
+								<div class="entry-meta entry-meta-header-after">
+									<ul>
+										<li>
+											<span class="posted-on">
+												<a href="/ldpd-devlib/four-things-on-php/" rel="bookmark">
+													<time class="entry-date published" datetime="2014-01-21 00:00:00 -0500">January 21, 14</time>
+												</a>
+											</span>
+										</li>
+										<li>
+											<span class="byline"> by
+												<span class="author vcard">
+													
+													
+														<a class="url fn n" href="/ldpd-devlib/author/john">
+													
+														John L. Tofanelli
+													
+														</a>
+													
+												</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="entry-summary">
+								<p>1. For learning more about PHP, we should codecademy.com or Lynda.com. 2. PHP is a widely used open source scripting language. 3. PHP commands are typically incorporated into pages that begin and end as HTML documents. 4. The value and power of PHP is that it can execute instructions based...</p>
+							</div>
+
+							<div class="more-link-wrapper">
+								<a href="/ldpd-devlib/four-things-on-php/" class="more-link">Read More</a>
+							</div>
+						</article>
+
+					
+						<article class="post type-post status-publish format-standard hentry category-copyright">
+							<div class="entry-header-wrapper entry-header-wrapper-archive">
+								<div class="entry-meta entry-meta-header-before">
+									<ul>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/four-things">four-things</a>
+											</span>
+										</li>
+										
+										
+									</ul>
+								</div>
+
+								<header class="entry-header">
+									<h1 class="entry-title"><a href="/ldpd-devlib/985/" rel="bookmark">Programming, week 2</a></h1>
+								</header>
+
+								<div class="entry-meta entry-meta-header-after">
+									<ul>
+										<li>
+											<span class="posted-on">
+												<a href="/ldpd-devlib/985/" rel="bookmark">
+													<time class="entry-date published" datetime="2014-02-04 00:00:00 -0500">February 04, 14</time>
+												</a>
+											</span>
+										</li>
+										<li>
+											<span class="byline"> by
+												<span class="author vcard">
+													
+													
+														<a class="url fn n" href="/ldpd-devlib/author/john">
+													
+														John L. Tofanelli
+													
+														</a>
+													
+												</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="entry-summary">
+								<p>Four things learned: In the phrase ‘object-oriented programming,’ the word ‘object’ should be construed to mean the data plus the methods information that tell you how the data would like to be used. PHP is an example of object-oriented programming. We can teach ourselves more about using PHP on Lynda.com....</p>
+							</div>
+
+							<div class="more-link-wrapper">
+								<a href="/ldpd-devlib/985/" class="more-link">Read More</a>
+							</div>
+						</article>
+
+					
+						<article class="post type-post status-publish format-standard hentry category-copyright">
+							<div class="entry-header-wrapper entry-header-wrapper-archive">
+								<div class="entry-meta entry-meta-header-before">
+									<ul>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/four-things">four-things</a>
+											</span>
+										</li>
+										
+										
+									</ul>
+								</div>
+
+								<header class="entry-header">
+									<h1 class="entry-title"><a href="/ldpd-devlib/four-things-learned-project-management/" rel="bookmark">four things learned: project management</a></h1>
+								</header>
+
+								<div class="entry-meta entry-meta-header-after">
+									<ul>
+										<li>
+											<span class="posted-on">
+												<a href="/ldpd-devlib/four-things-learned-project-management/" rel="bookmark">
+													<time class="entry-date published" datetime="2014-03-04 00:00:00 -0500">March 04, 14</time>
+												</a>
+											</span>
+										</li>
+										<li>
+											<span class="byline"> by
+												<span class="author vcard">
+													
+													
+														<a class="url fn n" href="/ldpd-devlib/author/john">
+													
+														John L. Tofanelli
+													
+														</a>
+													
+												</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="entry-summary">
+								<p>1. One key question in all projects should be: Why? That is, what is my motivation? Whom am I affecting and how? 2. Definition of scope is crucial. Which elements need to be functional online for the initial launch? Which elements could be considered desirable but regarded as optional add-ons...</p>
+							</div>
+
+							<div class="more-link-wrapper">
+								<a href="/ldpd-devlib/four-things-learned-project-management/" class="more-link">Read More</a>
+							</div>
+						</article>
+
+					
+						<article class="post type-post status-publish format-standard hentry category-copyright">
+							<div class="entry-header-wrapper entry-header-wrapper-archive">
+								<div class="entry-meta entry-meta-header-before">
+									<ul>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/collaboration">collaboration</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/project-management">project management</a>
+											</span>
+										</li>
+										
+										
+									</ul>
+								</div>
+
+								<header class="entry-header">
+									<h1 class="entry-title"><a href="/ldpd-devlib/planning-and-managing-our-project/" rel="bookmark">Planning and Managing our Project</a></h1>
+								</header>
+
+								<div class="entry-meta entry-meta-header-after">
+									<ul>
+										<li>
+											<span class="posted-on">
+												<a href="/ldpd-devlib/planning-and-managing-our-project/" rel="bookmark">
+													<time class="entry-date published" datetime="2014-03-18 00:00:00 -0400">March 18, 14</time>
+												</a>
+											</span>
+										</li>
+										<li>
+											<span class="byline"> by
+												<span class="author vcard">
+													
+													
+														<a class="url fn n" href="/ldpd-devlib/author/john">
+													
+														John L. Tofanelli
+													
+														</a>
+													
+												</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="entry-summary">
+								<p>Now that our Developing Librarian group has been formed into teams (see message immediately below), we have turned our attention to the areas of project planning and management. On March 4, our meeting was devoted to a project management workshop with Mitch Brodsky from the New York Philharmonic. Two important...</p>
+							</div>
+
+							<div class="more-link-wrapper">
+								<a href="/ldpd-devlib/planning-and-managing-our-project/" class="more-link">Read More</a>
+							</div>
+						</article>
+
+					
+						<article class="post type-post status-publish format-standard hentry category-copyright">
+							<div class="entry-header-wrapper entry-header-wrapper-archive">
+								<div class="entry-meta entry-meta-header-before">
+									<ul>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/comprehension">comprehension</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/research">research</a>
+											</span>
+										</li>
+										
+										
+									</ul>
+								</div>
+
+								<header class="entry-header">
+									<h1 class="entry-title"><a href="/ldpd-devlib/timeless-and-time-bound/" rel="bookmark">Timeless and Time Bound</a></h1>
+								</header>
+
+								<div class="entry-meta entry-meta-header-after">
+									<ul>
+										<li>
+											<span class="posted-on">
+												<a href="/ldpd-devlib/timeless-and-time-bound/" rel="bookmark">
+													<time class="entry-date published" datetime="2014-04-05 00:00:00 -0400">April 05, 14</time>
+												</a>
+											</span>
+										</li>
+										<li>
+											<span class="byline"> by
+												<span class="author vcard">
+													
+													
+														<a class="url fn n" href="/ldpd-devlib/author/john">
+													
+														John L. Tofanelli
+													
+														</a>
+													
+												</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="entry-summary">
+								<p>I have never felt at home in the Cathedral Church of St. John the Divine. To me it has always seemed needlessly massive, incoherent, uninspired, and, perhaps worst of all, uninspiring. The questions I am inclined to contemplate when there are not eternal but rather historical ones, such as: How...</p>
+							</div>
+
+							<div class="more-link-wrapper">
+								<a href="/ldpd-devlib/timeless-and-time-bound/" class="more-link">Read More</a>
+							</div>
+						</article>
+
+					
+						<article class="post type-post status-publish format-standard hentry category-copyright">
+							<div class="entry-header-wrapper entry-header-wrapper-archive">
+								<div class="entry-meta entry-meta-header-before">
+									<ul>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/methods">methods</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/research">research</a>
+											</span>
+										</li>
+										
+										
+									</ul>
+								</div>
+
+								<header class="entry-header">
+									<h1 class="entry-title"><a href="/ldpd-devlib/arriving-at-ideas-for-exhibit-pages/" rel="bookmark">Arriving at Ideas for Exhibit Pages</a></h1>
+								</header>
+
+								<div class="entry-meta entry-meta-header-after">
+									<ul>
+										<li>
+											<span class="posted-on">
+												<a href="/ldpd-devlib/arriving-at-ideas-for-exhibit-pages/" rel="bookmark">
+													<time class="entry-date published" datetime="2014-04-16 00:00:00 -0400">April 16, 14</time>
+												</a>
+											</span>
+										</li>
+										<li>
+											<span class="byline"> by
+												<span class="author vcard">
+													
+													
+														<a class="url fn n" href="/ldpd-devlib/author/john">
+													
+														John L. Tofanelli
+													
+														</a>
+													
+												</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="entry-summary">
+								<p>For the initial launch date of our Morningside project site, December 2014, we are all expected to have completed three exhibits, and to have provided access to at least twenty items, of which many should be in direct support of our exhibits. An exhibit, in a project such as ours,...</p>
+							</div>
+
+							<div class="more-link-wrapper">
+								<a href="/ldpd-devlib/arriving-at-ideas-for-exhibit-pages/" class="more-link">Read More</a>
+							</div>
+						</article>
+
+					
+						<article class="post type-post status-publish format-standard hentry category-copyright">
+							<div class="entry-header-wrapper entry-header-wrapper-archive">
+								<div class="entry-meta entry-meta-header-before">
+									<ul>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/collaboration">collaboration</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/design-and-interfaces">design and interfaces</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/development">development</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/methods">methods</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/project-management">project management</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/skill-development">skill development</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/tools">tools</a>
+											</span>
+										</li>
+										
+										
+									</ul>
+								</div>
+
+								<header class="entry-header">
+									<h1 class="entry-title"><a href="/ldpd-devlib/gathering-momentum/" rel="bookmark">Gathering Momentum</a></h1>
+								</header>
+
+								<div class="entry-meta entry-meta-header-after">
+									<ul>
+										<li>
+											<span class="posted-on">
+												<a href="/ldpd-devlib/gathering-momentum/" rel="bookmark">
+													<time class="entry-date published" datetime="2014-05-06 00:00:00 -0400">May 06, 14</time>
+												</a>
+											</span>
+										</li>
+										<li>
+											<span class="byline"> by
+												<span class="author vcard">
+													
+													
+														<a class="url fn n" href="/ldpd-devlib/author/john">
+													
+														John L. Tofanelli
+													
+														</a>
+													
+												</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="entry-summary">
+								<p>In our Developing Librarian Meeting today we moved forward in various ways. The Project Management team (Nancy and John) presented to the group a new central Google-shared space containing a folder for each team, foundational project documents, and our project timeline. Teams were invited to deposit in their folders any...</p>
+							</div>
+
+							<div class="more-link-wrapper">
+								<a href="/ldpd-devlib/gathering-momentum/" class="more-link">Read More</a>
+							</div>
+						</article>
+
+					
+						<article class="post type-post status-publish format-standard hentry category-copyright">
+							<div class="entry-header-wrapper entry-header-wrapper-archive">
+								<div class="entry-meta entry-meta-header-before">
+									<ul>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/collaboration">collaboration</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/meeting-overview">meeting overview</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/metadata">metadata</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/project-management">project management</a>
+											</span>
+										</li>
+										
+										
+									</ul>
+								</div>
+
+								<header class="entry-header">
+									<h1 class="entry-title"><a href="/ldpd-devlib/our-meeting-may-20-2014/" rel="bookmark">Our meeting May 20, 2014</a></h1>
+								</header>
+
+								<div class="entry-meta entry-meta-header-after">
+									<ul>
+										<li>
+											<span class="posted-on">
+												<a href="/ldpd-devlib/our-meeting-may-20-2014/" rel="bookmark">
+													<time class="entry-date published" datetime="2014-05-20 00:00:00 -0400">May 20, 14</time>
+												</a>
+											</span>
+										</li>
+										<li>
+											<span class="byline"> by
+												<span class="author vcard">
+													
+													
+														<a class="url fn n" href="/ldpd-devlib/author/john">
+													
+														John L. Tofanelli
+													
+														</a>
+													
+												</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="entry-summary">
+								<p>In our meeting today we basically focused on two things: the work of our Research and Editorial Team and how to keep this Developing Librarian blog vital and varied–reflective of the vital and varied nature of our own experiences working on this project. Our Research and Editorial Team consists of...</p>
+							</div>
+
+							<div class="more-link-wrapper">
+								<a href="/ldpd-devlib/our-meeting-may-20-2014/" class="more-link">Read More</a>
+							</div>
+						</article>
+
+					
+						<article class="post type-post status-publish format-standard hentry category-copyright">
+							<div class="entry-header-wrapper entry-header-wrapper-archive">
+								<div class="entry-meta entry-meta-header-before">
+									<ul>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/design-and-interfaces">design and interfaces</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/meeting-overview">meeting overview</a>
+											</span>
+										</li>
+										
+										
+									</ul>
+								</div>
+
+								<header class="entry-header">
+									<h1 class="entry-title"><a href="/ldpd-devlib/group-meeting-june-3-2014/" rel="bookmark">Group Meeting June 3, 2014</a></h1>
+								</header>
+
+								<div class="entry-meta entry-meta-header-after">
+									<ul>
+										<li>
+											<span class="posted-on">
+												<a href="/ldpd-devlib/group-meeting-june-3-2014/" rel="bookmark">
+													<time class="entry-date published" datetime="2014-06-03 00:00:00 -0400">June 03, 14</time>
+												</a>
+											</span>
+										</li>
+										<li>
+											<span class="byline"> by
+												<span class="author vcard">
+													
+													
+														<a class="url fn n" href="/ldpd-devlib/author/john">
+													
+														John L. Tofanelli
+													
+														</a>
+													
+												</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="entry-summary">
+								<p>Our Design Team has been learning Adobe Illustrator and has been working in Illustrator on the creation of two logo options for our Morningside Heights history site. Today both logos were presented. One was relatively complete and the other was complete as a concept but had not yet been fully...</p>
+							</div>
+
+							<div class="more-link-wrapper">
+								<a href="/ldpd-devlib/group-meeting-june-3-2014/" class="more-link">Read More</a>
+							</div>
+						</article>
+
+					
+						<article class="post type-post status-publish format-standard hentry category-copyright">
+							<div class="entry-header-wrapper entry-header-wrapper-archive">
+								<div class="entry-meta entry-meta-header-before">
+									<ul>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/collaboration">collaboration</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/methods">methods</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/project-management">project management</a>
+											</span>
+										</li>
+										
+										
+									</ul>
+								</div>
+
+								<header class="entry-header">
+									<h1 class="entry-title"><a href="/ldpd-devlib/lessons-in-project-management/" rel="bookmark">Lessons in Project Management</a></h1>
+								</header>
+
+								<div class="entry-meta entry-meta-header-after">
+									<ul>
+										<li>
+											<span class="posted-on">
+												<a href="/ldpd-devlib/lessons-in-project-management/" rel="bookmark">
+													<time class="entry-date published" datetime="2014-06-13 00:00:00 -0400">June 13, 14</time>
+												</a>
+											</span>
+										</li>
+										<li>
+											<span class="byline"> by
+												<span class="author vcard">
+													
+													
+														<a class="url fn n" href="/ldpd-devlib/author/john">
+													
+														John L. Tofanelli
+													
+														</a>
+													
+												</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="entry-summary">
+								<p>For our project we have a small but highly capable project management team–myself and Nancy Friedland. A number of our team’s meetings have also included Alex Gil, our Digital Scholarship Coordinator, who is something of an ex officio member. Initially, I viewed the role of project manager with some misgivings....</p>
+							</div>
+
+							<div class="more-link-wrapper">
+								<a href="/ldpd-devlib/lessons-in-project-management/" class="more-link">Read More</a>
+							</div>
+						</article>
+
+					
+						<article class="post type-post status-publish format-standard hentry category-copyright">
+							<div class="entry-header-wrapper entry-header-wrapper-archive">
+								<div class="entry-meta entry-meta-header-before">
+									<ul>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/meeting-overview">meeting overview</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/project-management">project management</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/research">research</a>
+											</span>
+										</li>
+										
+										
+									</ul>
+								</div>
+
+								<header class="entry-header">
+									<h1 class="entry-title"><a href="/ldpd-devlib/group-meeting-june-17-2014/" rel="bookmark">Group Meeting June 17, 2014</a></h1>
+								</header>
+
+								<div class="entry-meta entry-meta-header-after">
+									<ul>
+										<li>
+											<span class="posted-on">
+												<a href="/ldpd-devlib/group-meeting-june-17-2014/" rel="bookmark">
+													<time class="entry-date published" datetime="2014-06-17 00:00:00 -0400">June 17, 14</time>
+												</a>
+											</span>
+										</li>
+										<li>
+											<span class="byline"> by
+												<span class="author vcard">
+													
+													
+														<a class="url fn n" href="/ldpd-devlib/author/john">
+													
+														John L. Tofanelli
+													
+														</a>
+													
+												</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="entry-summary">
+								<p>The Design Team had done additional work on proposed logo designs for our Morningside History Project site. Two designs were presented to the group for a vote and one was chosen. Both designs demonstrated considerable ingenuity. One key consideration in logo selection was scalability. Would the key idea of logo...</p>
+							</div>
+
+							<div class="more-link-wrapper">
+								<a href="/ldpd-devlib/group-meeting-june-17-2014/" class="more-link">Read More</a>
+							</div>
+						</article>
+
+					
+						<article class="post type-post status-publish format-standard hentry category-copyright">
+							<div class="entry-header-wrapper entry-header-wrapper-archive">
+								<div class="entry-meta entry-meta-header-before">
+									<ul>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/collaboration">collaboration</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/methods">methods</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/project-management">project management</a>
+											</span>
+										</li>
+										
+										
+									</ul>
+								</div>
+
+								<header class="entry-header">
+									<h1 class="entry-title"><a href="/ldpd-devlib/project-management-coordinating-progress/" rel="bookmark">Project Management: Coordinating Progress</a></h1>
+								</header>
+
+								<div class="entry-meta entry-meta-header-after">
+									<ul>
+										<li>
+											<span class="posted-on">
+												<a href="/ldpd-devlib/project-management-coordinating-progress/" rel="bookmark">
+													<time class="entry-date published" datetime="2014-08-16 00:00:00 -0400">August 16, 14</time>
+												</a>
+											</span>
+										</li>
+										<li>
+											<span class="byline"> by
+												<span class="author vcard">
+													
+													
+														<a class="url fn n" href="/ldpd-devlib/author/john">
+													
+														John L. Tofanelli
+													
+														</a>
+													
+												</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="entry-summary">
+								<p>Our project is moving forward along two basic tracks. The first is team accomplishments, and progress here depends heavily on synchronization. For example, the Design Team needed to complete its designs and specifications for logo and home page before the Development Team could begin working on implementing them. The second...</p>
+							</div>
+
+							<div class="more-link-wrapper">
+								<a href="/ldpd-devlib/project-management-coordinating-progress/" class="more-link">Read More</a>
+							</div>
+						</article>
+
+					
+						<article class="post type-post status-publish format-standard hentry category-copyright">
+							<div class="entry-header-wrapper entry-header-wrapper-archive">
+								<div class="entry-meta entry-meta-header-before">
+									<ul>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/collaboration">collaboration</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/design-and-interfaces">design and interfaces</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/meeting-overview">meeting overview</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/metadata">metadata</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/project-management">project management</a>
+											</span>
+										</li>
+										
+										
+									</ul>
+								</div>
+
+								<header class="entry-header">
+									<h1 class="entry-title"><a href="/ldpd-devlib/group-meeting-august-12/" rel="bookmark">Group Meeting, August 12</a></h1>
+								</header>
+
+								<div class="entry-meta entry-meta-header-after">
+									<ul>
+										<li>
+											<span class="posted-on">
+												<a href="/ldpd-devlib/group-meeting-august-12/" rel="bookmark">
+													<time class="entry-date published" datetime="2014-09-12 00:00:00 -0400">September 12, 14</time>
+												</a>
+											</span>
+										</li>
+										<li>
+											<span class="byline"> by
+												<span class="author vcard">
+													
+													
+														<a class="url fn n" href="/ldpd-devlib/author/john">
+													
+														John L. Tofanelli
+													
+														</a>
+													
+												</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="entry-summary">
+								<p>Announcements and updates Bob Scott announced that he, Meredith, Sarah, and Alex have had a proposal approved for the Digital Library Federation Forum in Atlanta this October. They will be doing a presentation on our Developing Librarian project. Design team report Karen Green reported on the latest progress of the...</p>
+							</div>
+
+							<div class="more-link-wrapper">
+								<a href="/ldpd-devlib/group-meeting-august-12/" class="more-link">Read More</a>
+							</div>
+						</article>
+
+					
+						<article class="post type-post status-publish format-standard hentry category-copyright">
+							<div class="entry-header-wrapper entry-header-wrapper-archive">
+								<div class="entry-meta entry-meta-header-before">
+									<ul>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/collaboration">collaboration</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/comprehension">comprehension</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/metadata">metadata</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/project-management">project management</a>
+											</span>
+										</li>
+										
+										
+									</ul>
+								</div>
+
+								<header class="entry-header">
+									<h1 class="entry-title"><a href="/ldpd-devlib/managing-time-and-metadata/" rel="bookmark">Managing Time and Metadata</a></h1>
+								</header>
+
+								<div class="entry-meta entry-meta-header-after">
+									<ul>
+										<li>
+											<span class="posted-on">
+												<a href="/ldpd-devlib/managing-time-and-metadata/" rel="bookmark">
+													<time class="entry-date published" datetime="2014-09-15 00:00:00 -0400">September 15, 14</time>
+												</a>
+											</span>
+										</li>
+										<li>
+											<span class="byline"> by
+												<span class="author vcard">
+													
+													
+														<a class="url fn n" href="/ldpd-devlib/author/john">
+													
+														John L. Tofanelli
+													
+														</a>
+													
+												</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="entry-summary">
+								<p>As the faded Hollywood star played by Elizabeth Taylor in There Must be a Pony (1986) wryly quips ‘That’s the problem with life–bad lighting and no music.’ We might add to this list of life’s deficiencies: insufficient time and inadequate metadata. In a project such as our digital history of...</p>
+							</div>
+
+							<div class="more-link-wrapper">
+								<a href="/ldpd-devlib/managing-time-and-metadata/" class="more-link">Read More</a>
+							</div>
+						</article>
+
+					
+						<article class="post type-post status-publish format-standard hentry category-copyright">
+							<div class="entry-header-wrapper entry-header-wrapper-archive">
+								<div class="entry-meta entry-meta-header-before">
+									<ul>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/collaboration">collaboration</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/editing">editing</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/meeting-overview">meeting overview</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/metadata">metadata</a>
+											</span>
+										</li>
+										
+										
+									</ul>
+								</div>
+
+								<header class="entry-header">
+									<h1 class="entry-title"><a href="/ldpd-devlib/group-meeting-september-23/" rel="bookmark">Group Meeting September 23</a></h1>
+								</header>
+
+								<div class="entry-meta entry-meta-header-after">
+									<ul>
+										<li>
+											<span class="posted-on">
+												<a href="/ldpd-devlib/group-meeting-september-23/" rel="bookmark">
+													<time class="entry-date published" datetime="2014-09-23 00:00:00 -0400">September 23, 14</time>
+												</a>
+											</span>
+										</li>
+										<li>
+											<span class="byline"> by
+												<span class="author vcard">
+													
+													
+														<a class="url fn n" href="/ldpd-devlib/author/john">
+													
+														John L. Tofanelli
+													
+														</a>
+													
+												</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="entry-summary">
+								<p>Following up on recent discussions about the use of metadata in our Morningside Heights Digital History project, we focused more today on implementation and on practice-based rules and agreements. Elizabeth Davis will be our sole continuing member on the Editorial Team. Fortunately, she has prior editorial experience with W W...</p>
+							</div>
+
+							<div class="more-link-wrapper">
+								<a href="/ldpd-devlib/group-meeting-september-23/" class="more-link">Read More</a>
+							</div>
+						</article>
+
+					
+						<article class="post type-post status-publish format-standard hentry category-copyright">
+							<div class="entry-header-wrapper entry-header-wrapper-archive">
+								<div class="entry-meta entry-meta-header-before">
+									<ul>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/announcements">announcements</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/collaboration">collaboration</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/project-description">project description</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/project-management">project management</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/skill-development">skill development</a>
+											</span>
+										</li>
+										
+										
+									</ul>
+								</div>
+
+								<header class="entry-header">
+									<h1 class="entry-title"><a href="/ldpd-devlib/respecting-deadlines-and-project-integrity/" rel="bookmark">Respecting Deadlines and Project Integrity</a></h1>
+								</header>
+
+								<div class="entry-meta entry-meta-header-after">
+									<ul>
+										<li>
+											<span class="posted-on">
+												<a href="/ldpd-devlib/respecting-deadlines-and-project-integrity/" rel="bookmark">
+													<time class="entry-date published" datetime="2014-11-05 00:00:00 -0500">November 05, 14</time>
+												</a>
+											</span>
+										</li>
+										<li>
+											<span class="byline"> by
+												<span class="author vcard">
+													
+													
+														<a class="url fn n" href="/ldpd-devlib/author/john">
+													
+														John L. Tofanelli
+													
+														</a>
+													
+												</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="entry-summary">
+								<p>The Project management Team (Nancy Friedland and John Tofanelli) met on Monday to discuss how the Humanities and History team should best move forwards on our Morningside Heights Digital History (MHDH) project in light of our pending deadline for the initial launch of our public site–January 1, 2015. Here are...</p>
+							</div>
+
+							<div class="more-link-wrapper">
+								<a href="/ldpd-devlib/respecting-deadlines-and-project-integrity/" class="more-link">Read More</a>
+							</div>
+						</article>
+
+					
+						<article class="post type-post status-publish format-standard hentry category-copyright">
+							<div class="entry-header-wrapper entry-header-wrapper-archive">
+								<div class="entry-meta entry-meta-header-before">
+									<ul>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/design-and-interfaces">design and interfaces</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/meeting-overview">meeting overview</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/methods">methods</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/project-description">project description</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/project-management">project management</a>
+											</span>
+										</li>
+										
+										
+									</ul>
+								</div>
+
+								<header class="entry-header">
+									<h1 class="entry-title"><a href="/ldpd-devlib/group-meeting-november-18-2014/" rel="bookmark">Group Meeting November 18, 2014</a></h1>
+								</header>
+
+								<div class="entry-meta entry-meta-header-after">
+									<ul>
+										<li>
+											<span class="posted-on">
+												<a href="/ldpd-devlib/group-meeting-november-18-2014/" rel="bookmark">
+													<time class="entry-date published" datetime="2014-11-18 00:00:00 -0500">November 18, 14</time>
+												</a>
+											</span>
+										</li>
+										<li>
+											<span class="byline"> by
+												<span class="author vcard">
+													
+													
+														<a class="url fn n" href="/ldpd-devlib/author/john">
+													
+														John L. Tofanelli
+													
+														</a>
+													
+												</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="entry-summary">
+								<p>The main focus of today’s meeting was on exhibits. 1. What is an exhibit? And what do I need to do to create one? An exhibit is an essay or narrative illustrated by online items that support or enrich what is being said. There is no prescribed length. It should...</p>
+							</div>
+
+							<div class="more-link-wrapper">
+								<a href="/ldpd-devlib/group-meeting-november-18-2014/" class="more-link">Read More</a>
+							</div>
+						</article>
+
+					
+						<article class="post type-post status-publish format-standard hentry category-copyright">
+							<div class="entry-header-wrapper entry-header-wrapper-archive">
+								<div class="entry-meta entry-meta-header-before">
+									<ul>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/collaboration">collaboration</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/copyright">copyright</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/design-and-interfaces">design and interfaces</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/meeting-overview">meeting overview</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/methods">methods</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/project-description">project description</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/project-management">project management</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/skill-development">skill development</a>
+											</span>
+										</li>
+										
+										
+									</ul>
+								</div>
+
+								<header class="entry-header">
+									<h1 class="entry-title"><a href="/ldpd-devlib/group-meeting-december-16-2014/" rel="bookmark">Group Meeting December 16, 2014</a></h1>
+								</header>
+
+								<div class="entry-meta entry-meta-header-after">
+									<ul>
+										<li>
+											<span class="posted-on">
+												<a href="/ldpd-devlib/group-meeting-december-16-2014/" rel="bookmark">
+													<time class="entry-date published" datetime="2014-12-16 00:00:00 -0500">December 16, 14</time>
+												</a>
+											</span>
+										</li>
+										<li>
+											<span class="byline"> by
+												<span class="author vcard">
+													
+													
+														<a class="url fn n" href="/ldpd-devlib/author/john">
+													
+														John L. Tofanelli
+													
+														</a>
+													
+												</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="entry-summary">
+								<p>1. Team updates The Design team has been working on a front page for our public site. It will be handed over to the Development Team for implementation once the design work is completed. Karen Green, Chair of Design Team, showed the group a Power Point mock-up of the intended...</p>
+							</div>
+
+							<div class="more-link-wrapper">
+								<a href="/ldpd-devlib/group-meeting-december-16-2014/" class="more-link">Read More</a>
+							</div>
+						</article>
+
+					
+						<article class="post type-post status-publish format-standard hentry category-copyright">
+							<div class="entry-header-wrapper entry-header-wrapper-archive">
+								<div class="entry-meta entry-meta-header-before">
+									<ul>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/design-and-interfaces">design and interfaces</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/development">development</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/meeting-overview">meeting overview</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/metadata">metadata</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/project-management">project management</a>
+											</span>
+										</li>
+										
+										
+									</ul>
+								</div>
+
+								<header class="entry-header">
+									<h1 class="entry-title"><a href="/ldpd-devlib/group-meeting-february-19-2015/" rel="bookmark">Group Meeting, February 19, 2015</a></h1>
+								</header>
+
+								<div class="entry-meta entry-meta-header-after">
+									<ul>
+										<li>
+											<span class="posted-on">
+												<a href="/ldpd-devlib/group-meeting-february-19-2015/" rel="bookmark">
+													<time class="entry-date published" datetime="2015-02-19 00:00:00 -0500">February 19, 15</time>
+												</a>
+											</span>
+										</li>
+										<li>
+											<span class="byline"> by
+												<span class="author vcard">
+													
+													
+														<a class="url fn n" href="/ldpd-devlib/author/john">
+													
+														John L. Tofanelli
+													
+														</a>
+													
+												</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="entry-summary">
+								<p>1. Location for Morningside Workshop meetings The group agreed that these will be held in our Digital Humanities Center on scheduled Tuesdays 10-11. The computers there have big screens conducive to working on exhibits. They also have the full range of software we might want to use. 2. Map color...</p>
+							</div>
+
+							<div class="more-link-wrapper">
+								<a href="/ldpd-devlib/group-meeting-february-19-2015/" class="more-link">Read More</a>
+							</div>
+						</article>
+
+					
+						<article class="post type-post status-publish format-standard hentry category-copyright">
+							<div class="entry-header-wrapper entry-header-wrapper-archive">
+								<div class="entry-meta entry-meta-header-before">
+									<ul>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/development">development</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/meeting-overview">meeting overview</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/project-management">project management</a>
+											</span>
+										</li>
+										
+										
+									</ul>
+								</div>
+
+								<header class="entry-header">
+									<h1 class="entry-title"><a href="/ldpd-devlib/group-meeting-may-5-2015/" rel="bookmark">Group Meeting, May 5, 2015</a></h1>
+								</header>
+
+								<div class="entry-meta entry-meta-header-after">
+									<ul>
+										<li>
+											<span class="posted-on">
+												<a href="/ldpd-devlib/group-meeting-may-5-2015/" rel="bookmark">
+													<time class="entry-date published" datetime="2015-05-05 00:00:00 -0400">May 05, 15</time>
+												</a>
+											</span>
+										</li>
+										<li>
+											<span class="byline"> by
+												<span class="author vcard">
+													
+													
+														<a class="url fn n" href="/ldpd-devlib/author/john">
+													
+														John L. Tofanelli
+													
+														</a>
+													
+												</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="entry-summary">
+								<p>1. Development Team Update The Development Team showed our group the new home page for our Morningside Heights Digital History project site. This new page incorporates an historical map for Morningside Heights with its original colors restored (and slightly heightened for emphasis and clarity). The page surrounding the map was...</p>
+							</div>
+
+							<div class="more-link-wrapper">
+								<a href="/ldpd-devlib/group-meeting-may-5-2015/" class="more-link">Read More</a>
+							</div>
+						</article>
+
+					
+						<article class="post type-post status-publish format-standard hentry category-copyright">
+							<div class="entry-header-wrapper entry-header-wrapper-archive">
+								<div class="entry-meta entry-meta-header-before">
+									<ul>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/copyright">copyright</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/meeting-overview">meeting overview</a>
+											</span>
+										</li>
+										
+										
+									</ul>
+								</div>
+
+								<header class="entry-header">
+									<h1 class="entry-title"><a href="/ldpd-devlib/group-meeting-may-19-2015/" rel="bookmark">Group Meeting May 19, 2015</a></h1>
+								</header>
+
+								<div class="entry-meta entry-meta-header-after">
+									<ul>
+										<li>
+											<span class="posted-on">
+												<a href="/ldpd-devlib/group-meeting-may-19-2015/" rel="bookmark">
+													<time class="entry-date published" datetime="2015-05-19 00:00:00 -0400">May 19, 15</time>
+												</a>
+											</span>
+										</li>
+										<li>
+											<span class="byline"> by
+												<span class="author vcard">
+													
+													
+														<a class="url fn n" href="/ldpd-devlib/author/john">
+													
+														John L. Tofanelli
+													
+														</a>
+													
+												</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="entry-summary">
+								<p>1. Creative Commons License for our Morningside History project site Near the start of our process, we discussed Creative Commons license options and settled on a CC-BY 3.0 US License. This is featured on the front page of our Developing Librarian process / blog site, which states in the bottom...</p>
+							</div>
+
+							<div class="more-link-wrapper">
+								<a href="/ldpd-devlib/group-meeting-may-19-2015/" class="more-link">Read More</a>
+							</div>
+						</article>
+
+					
+						<article class="post type-post status-publish format-standard hentry category-copyright">
+							<div class="entry-header-wrapper entry-header-wrapper-archive">
+								<div class="entry-meta entry-meta-header-before">
+									<ul>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/copyright">copyright</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/meeting-overview">meeting overview</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/metadata">metadata</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/project-management">project management</a>
+											</span>
+										</li>
+										
+										
+									</ul>
+								</div>
+
+								<header class="entry-header">
+									<h1 class="entry-title"><a href="/ldpd-devlib/group-meeting-june-2-2015/" rel="bookmark">Group Meeting June 2, 2015</a></h1>
+								</header>
+
+								<div class="entry-meta entry-meta-header-after">
+									<ul>
+										<li>
+											<span class="posted-on">
+												<a href="/ldpd-devlib/group-meeting-june-2-2015/" rel="bookmark">
+													<time class="entry-date published" datetime="2015-06-02 00:00:00 -0400">June 02, 15</time>
+												</a>
+											</span>
+										</li>
+										<li>
+											<span class="byline"> by
+												<span class="author vcard">
+													
+													
+														<a class="url fn n" href="/ldpd-devlib/author/john">
+													
+														John L. Tofanelli
+													
+														</a>
+													
+												</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="entry-summary">
+								<p>1. Terms of use statement The group discussed and reviewed a terms of use statement that been drafted by Bob and John for the Morningside Heights Digital History (MHDH) project site. One minor emendation was agreed upon. John and Bob will next send the statement to Rina Panatalony, Director of...</p>
+							</div>
+
+							<div class="more-link-wrapper">
+								<a href="/ldpd-devlib/group-meeting-june-2-2015/" class="more-link">Read More</a>
+							</div>
+						</article>
+
+					
+						<article class="post type-post status-publish format-standard hentry category-copyright">
+							<div class="entry-header-wrapper entry-header-wrapper-archive">
+								<div class="entry-meta entry-meta-header-before">
+									<ul>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/design-and-interfaces">design and interfaces</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/meeting-overview">meeting overview</a>
+											</span>
+										</li>
+										
+										<li>
+											<span class="first-category">
+												
+												<a href="/ldpd-devlib/category/project-management">project management</a>
+											</span>
+										</li>
+										
+										
+									</ul>
+								</div>
+
+								<header class="entry-header">
+									<h1 class="entry-title"><a href="/ldpd-devlib/group-meeting-june-30-2015/" rel="bookmark">Group Meeting, June 30, 2015</a></h1>
+								</header>
+
+								<div class="entry-meta entry-meta-header-after">
+									<ul>
+										<li>
+											<span class="posted-on">
+												<a href="/ldpd-devlib/group-meeting-june-30-2015/" rel="bookmark">
+													<time class="entry-date published" datetime="2015-06-30 00:00:00 -0400">June 30, 15</time>
+												</a>
+											</span>
+										</li>
+										<li>
+											<span class="byline"> by
+												<span class="author vcard">
+													
+													
+														<a class="url fn n" href="/ldpd-devlib/author/john">
+													
+														John L. Tofanelli
+													
+														</a>
+													
+												</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="entry-summary">
+								<p>1. Review of Map Project about development of Morningside Heights - historic map is more powerful because of historical context. Not all locations are on current map. Cognitive noise on historic map. Leak and Watts is in foreground. Level playing field with newer map. Historical map misleading. Historical map not...</p>
+							</div>
+
+							<div class="more-link-wrapper">
+								<a href="/ldpd-devlib/group-meeting-june-30-2015/" class="more-link">Read More</a>
+							</div>
+						</article>
+
+					
+
+				</main>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+
+<!-- CULTNBW START -->
+<script type="text/javascript">
+  CULh_colorfg = '#303030';
+  CULh_colorbg = '#606060';
+</script>
+<script src="//cdn.cul.columbia.edu/ldpd-toolkit/widgets/cultnbw.min.js"></script>
+<!-- /CULTNBW END -->
+
+</div></body>

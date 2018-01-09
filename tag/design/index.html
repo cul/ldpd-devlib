@@ -1,0 +1,902 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Breaking the Code &#8211; The Developing Librarian Project</title>
+
+  <link rel="profile" href="http://gmpg.org/xfn/11">
+
+  <link rel="shortcut icon" type="image/png" href="/ldpd-devlib/favicon.png"/>
+
+  <link rel='dns-prefetch' href='//fonts.googleapis.com'/>
+  <link rel='dns-prefetch' href='//s.w.org'/>
+
+  <!--style-->
+  <link rel='stylesheet' id='retina-bootstrap-css' href='/ldpd-devlib/css/bootstrap.css' type='text/css' media='all'/>
+  <link rel='stylesheet' id='retina-fontawesome-css' href='/ldpd-devlib/css/font-awesome.min.css' type='text/css' media='all'/>
+  <link rel='stylesheet' id='retina-fonts-css'  href='https://fonts.googleapis.com/css?family=Playfair+Display%3A400%2C700%2C400italic%2C700italic%7CLato%3A400%2C400italic%2C700%2C700italic&#038;subset=latin%2Clatin-ext' type='text/css' media='all'/>
+  <link rel='stylesheet' id='retina-style-css' href='/ldpd-devlib/css/style.css' type='text/css' media='all'/>
+  <link rel='stylesheet' id='foundation-flickity-css' data-context="foundation-flickity-css" href='/ldpd-devlib/css/foundation-flickity.css' type='text/css' media='all'/>
+  <link rel='stylesheet' id="foundation-slideout-css" data-context="foundation-slideout-css" href='/ldpd-devlib/css/foundation-slideout.css' type='text/css' media='all'/>
+  <link rel='stylesheet' id='custom-css' href='/ldpd-devlib/css/custom.css' type='text/css' media='all'/>
+
+  <!--cdn scripts-->
+  
+    <script type='text/javascript' id="jquery" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  
+    <script type='text/javascript' id="jquery-migrate" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.0.1/jquery-migrate.min.js"></script>
+  
+    <script type='text/javascript' id="lunr" src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.1.5/lunr.min.js"></script>
+  
+    <script type='text/javascript' id="enquire.js" src="https://cdnjs.cloudflare.com/ajax/libs/enquire.js/2.1.6/enquire.min.js"></script>
+  
+    <script type='text/javascript' id="superfish" src="https://cdnjs.cloudflare.com/ajax/libs/superfish/1.7.9/js/superfish.min.js"></script>
+  
+  <!--local scripts-->
+  <script type='text/javascript' id="retina-custom" src="/ldpd-devlib/js/custom.js"></script>
+  <script type="text/javascript">
+    jQuery.migrateMute = true // silence annoying logs on poltergeist tests
+  </script>
+</head>
+
+<body class="home blog group-blog hfeed has-site-branding has-custom-header has-no-sidebar">
+<div id="page" class="site-wrapper site">
+<header id="masthead" class="site-header" role="banner">
+<div class="container">
+  <div class="row">
+    <div class="col-xl-12">
+
+      <div class="site-header-inside">
+
+        <div class="site-branding-wrapper">
+          <div class="site-logo-wrapper"></div>
+          <div class="site-branding">
+            <h2 class="site-title">
+              <a href="/ldpd-devlib/" title="Breaking the Code" rel="home">Breaking the Code</a>
+            </h2>
+            <h3 class="site-description">The Developing Librarian Project</h3>
+          </div>
+        </div><!-- .site-branding-wrapper -->
+
+        <div class="toggle-menu-wrapper">
+          <a href="#" title="Menu" class="toggle-menu-control">
+            <span class="screen-reader-text">Menu</span>
+          </a>
+        </div>
+
+      </div><!-- .site-header-inside -->
+
+    </div><!-- .col-xl-12 -->
+  </div><!-- .row -->
+</div><!-- .container -->
+</header><!-- #masthead -->
+
+<nav id="site-navigation" class="main-navigation" role="navigation">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-12">
+
+        <div class="main-navigation-inside">
+
+          <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+          <div class="site-primary-menu">
+            <ul class="primary-menu sf-menu">
+              <li class="current_page_item"><a href="/ldpd-devlib/">Home</a></li>
+              <li class="page_item page-item-106"><a href="/ldpd-devlib/about">About</a></li>
+              <li class="page_item page-item-40"><a href="/ldpd-devlib/charter">Charter</a></li>
+              <li class="page_item page-item-245"><a href="/ldpd-devlib/people">People</a></li>
+              <li class="page_item page-item-1297"><a href="/ldpd-devlib/publications">Publications and Presentations</a></li>
+              <li class="page_item page-item-124"><a href="/ldpd-devlib/roadmap">Roadmap</a></li>
+              <li class="page_item page-item-236"><a href="/ldpd-devlib/the-dhc">The DHC</a></li>
+              <li class="page_item page-item-236"><a href="/ldpd-devlib/search">Search</a></li>
+            </ul>
+          </div>
+
+        </div><!-- .main-navigation-inside -->
+
+      </div><!-- .col-xl-12 -->
+    </div><!-- .row -->
+  </div><!-- .container -->
+</nav><!-- .main-navigation -->
+
+<div id="content" class="site-content">
+	<div class="container">
+		<h1>Tag: design</h1>
+		<br/><br/>
+		<div class="row">
+			<div id="primary" class="content-area col-xl-12">
+				<main id="main" class="site-main" role="main">
+					
+						
+					
+						
+							
+							
+						
+					
+						
+					
+						
+					
+						
+							
+							
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+							
+							
+						
+					
+						
+							
+							
+						
+					
+						
+					
+						
+							
+							
+						
+							
+							
+						
+							
+							
+						
+							
+							
+						
+					
+						
+					
+						
+					
+						
+							
+							
+								<article class="post type-post status-publish format-standard hentry category-copyright">
+									<div class="entry-header-wrapper entry-header-wrapper-archive">
+										<div class="entry-meta entry-meta-header-before">
+											<ul>
+												
+													<li>
+														<span class="first-category">
+															
+															<a href="/ldpd-devlib/category/books-articles-and-other-literature">books articles and other literature</a>
+														</span>
+													</li>
+												
+													<li>
+														<span class="first-category">
+															
+															<a href="/ldpd-devlib/category/design-and-interfaces">design and interfaces</a>
+														</span>
+													</li>
+												
+													<li>
+														<span class="first-category">
+															
+															<a href="/ldpd-devlib/category/skill-development">skill development</a>
+														</span>
+													</li>
+												
+												
+												<li>
+													<span class="first-category">
+														
+														<a href="/ldpd-devlib/tag/design">#design</a>
+													</span>
+												</li>
+												
+												<li>
+													<span class="first-category">
+														
+														<a href="/ldpd-devlib/tag/readings">#readings</a>
+													</span>
+												</li>
+												
+												<li>
+													<span class="first-category">
+														
+														<a href="/ldpd-devlib/tag/user-experience">#user experience</a>
+													</span>
+												</li>
+												
+											</ul>
+										</div>
+
+										<header class="entry-header">
+											<h1 class="entry-title"><a href="/ldpd-devlib/importance-interface/" rel="bookmark">The importance of the interface</a></h1>
+										</header>
+
+										<div class="entry-meta entry-meta-header-after">
+											<ul>
+												<li>
+													<span class="posted-on">
+														<a href="/ldpd-devlib/importance-interface/" rel="bookmark">
+															<time class="entry-date published" datetime="2013-03-21 00:00:00 -0400">March 21, 13</time>
+														</a>
+													</span>
+												</li>
+												<li>
+													<span class="byline"> by
+														<span class="author vcard">
+															
+															
+																<a class="url fn n" href="/ldpd-devlib/author/nickpatterson">
+															
+															Nick Patterson
+															
+																</a>
+															
+														</span>
+													</span>
+												</li>
+											</ul>
+										</div>
+									</div>
+
+									<div class="entry-summary">
+										<p>A follow-up comment on our group discussion of the interesting article suggested by Bob, by Tanya Clement, ‘Half-Baked: The State of Evaluation in the Digital Humanities’ (American Literary History, Volume 24, Number 4, Winter 2012, pp. 876-890; here’s a link via Project Muse) - one point that was raised a...</p>
+									</div>
+
+									<div class="more-link-wrapper">
+										<a href="/ldpd-devlib/importance-interface/" class="more-link">Read More</a>
+									</div>
+								</article>
+							
+						
+							
+							
+						
+							
+							
+						
+					
+						
+					
+						
+					
+						
+							
+							
+						
+							
+							
+						
+					
+						
+							
+							
+						
+							
+							
+						
+					
+						
+					
+						
+							
+							
+						
+							
+							
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+							
+							
+						
+							
+							
+						
+							
+							
+						
+							
+							
+						
+							
+							
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+							
+							
+						
+							
+							
+						
+							
+							
+						
+							
+							
+						
+					
+						
+					
+						
+							
+							
+						
+							
+							
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+							
+							
+						
+							
+							
+						
+							
+							
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+							
+							
+						
+					
+						
+					
+						
+					
+						
+					
+						
+							
+							
+						
+							
+							
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+							
+							
+								<article class="post type-post status-publish format-standard hentry category-copyright">
+									<div class="entry-header-wrapper entry-header-wrapper-archive">
+										<div class="entry-meta entry-meta-header-before">
+											<ul>
+												
+													<li>
+														<span class="first-category">
+															
+															<a href="/ldpd-devlib/category/collaboration">collaboration</a>
+														</span>
+													</li>
+												
+													<li>
+														<span class="first-category">
+															
+															<a href="/ldpd-devlib/category/design-and-interfaces">design and interfaces</a>
+														</span>
+													</li>
+												
+												
+												<li>
+													<span class="first-category">
+														
+														<a href="/ldpd-devlib/tag/design">#design</a>
+													</span>
+												</li>
+												
+												<li>
+													<span class="first-category">
+														
+														<a href="/ldpd-devlib/tag/logos">#logos</a>
+													</span>
+												</li>
+												
+												<li>
+													<span class="first-category">
+														
+														<a href="/ldpd-devlib/tag/process">#process</a>
+													</span>
+												</li>
+												
+												<li>
+													<span class="first-category">
+														
+														<a href="/ldpd-devlib/tag/timelines">#timelines</a>
+													</span>
+												</li>
+												
+											</ul>
+										</div>
+
+										<header class="entry-header">
+											<h1 class="entry-title"><a href="/ldpd-devlib/once-more-into-the-breach/" rel="bookmark">Once more into the breach!</a></h1>
+										</header>
+
+										<div class="entry-meta entry-meta-header-after">
+											<ul>
+												<li>
+													<span class="posted-on">
+														<a href="/ldpd-devlib/once-more-into-the-breach/" rel="bookmark">
+															<time class="entry-date published" datetime="2014-04-01 00:00:00 -0400">April 01, 14</time>
+														</a>
+													</span>
+												</li>
+												<li>
+													<span class="byline"> by
+														<span class="author vcard">
+															
+															
+																<a class="url fn n" href="/ldpd-devlib/author/klg19">
+															
+															Karen Green
+															
+																</a>
+															
+														</span>
+													</span>
+												</li>
+											</ul>
+										</div>
+									</div>
+
+									<div class="entry-summary">
+										<p>Things have been a little quiet on the Developing Librarian front in the past few weeks, as we plunged into our heavy research skills instruction season.  But activity is beginning to stir once more… We have split into teams and devised a timeline–not for THIS site but for the site...</p>
+									</div>
+
+									<div class="more-link-wrapper">
+										<a href="/ldpd-devlib/once-more-into-the-breach/" class="more-link">Read More</a>
+									</div>
+								</article>
+							
+						
+							
+							
+						
+							
+							
+						
+							
+							
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+							
+							
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+							
+							
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+							
+							
+								<article class="post type-post status-publish format-standard hentry category-copyright">
+									<div class="entry-header-wrapper entry-header-wrapper-archive">
+										<div class="entry-meta entry-meta-header-before">
+											<ul>
+												
+													<li>
+														<span class="first-category">
+															
+															<a href="/ldpd-devlib/category/collaboration">collaboration</a>
+														</span>
+													</li>
+												
+													<li>
+														<span class="first-category">
+															
+															<a href="/ldpd-devlib/category/design-and-interfaces">design and interfaces</a>
+														</span>
+													</li>
+												
+												
+												<li>
+													<span class="first-category">
+														
+														<a href="/ldpd-devlib/tag/design">#design</a>
+													</span>
+												</li>
+												
+												<li>
+													<span class="first-category">
+														
+														<a href="/ldpd-devlib/tag/footers">#footers</a>
+													</span>
+												</li>
+												
+												<li>
+													<span class="first-category">
+														
+														<a href="/ldpd-devlib/tag/headers">#headers</a>
+													</span>
+												</li>
+												
+												<li>
+													<span class="first-category">
+														
+														<a href="/ldpd-devlib/tag/logos">#logos</a>
+													</span>
+												</li>
+												
+												<li>
+													<span class="first-category">
+														
+														<a href="/ldpd-devlib/tag/sources">#sources</a>
+													</span>
+												</li>
+												
+											</ul>
+										</div>
+
+										<header class="entry-header">
+											<h1 class="entry-title"><a href="/ldpd-devlib/design-team-update-logo-header-footer-process/" rel="bookmark">Design Team update: logo, header, footer...process</a></h1>
+										</header>
+
+										<div class="entry-meta entry-meta-header-after">
+											<ul>
+												<li>
+													<span class="posted-on">
+														<a href="/ldpd-devlib/design-team-update-logo-header-footer-process/" rel="bookmark">
+															<time class="entry-date published" datetime="2014-08-15 00:00:00 -0400">August 15, 14</time>
+														</a>
+													</span>
+												</li>
+												<li>
+													<span class="byline"> by
+														<span class="author vcard">
+															
+															
+																<a class="url fn n" href="/ldpd-devlib/author/klg19">
+															
+															Karen Green
+															
+																</a>
+															
+														</span>
+													</span>
+												</li>
+											</ul>
+										</div>
+									</div>
+
+									<div class="entry-summary">
+										<p>Though we haven’t surfaced online in a while, the Design Team has been hard at work.  We have been perfecting logos and considering other sites to figure out what we wanted our design elements to resemble.  Here’s where we are so far. We designed our logo to evoke a subway...</p>
+									</div>
+
+									<div class="more-link-wrapper">
+										<a href="/ldpd-devlib/design-team-update-logo-header-footer-process/" class="more-link">Read More</a>
+									</div>
+								</article>
+							
+						
+							
+							
+						
+							
+							
+						
+							
+							
+						
+							
+							
+						
+					
+						
+					
+						
+					
+						
+							
+							
+						
+							
+							
+						
+							
+							
+						
+					
+						
+					
+						
+					
+						
+					
+						
+							
+							
+						
+							
+							
+						
+							
+							
+								<article class="post type-post status-publish format-standard hentry category-copyright">
+									<div class="entry-header-wrapper entry-header-wrapper-archive">
+										<div class="entry-meta entry-meta-header-before">
+											<ul>
+												
+													<li>
+														<span class="first-category">
+															
+															<a href="/ldpd-devlib/category/design-and-interfaces">design and interfaces</a>
+														</span>
+													</li>
+												
+													<li>
+														<span class="first-category">
+															
+															<a href="/ldpd-devlib/category/development">development</a>
+														</span>
+													</li>
+												
+												
+												<li>
+													<span class="first-category">
+														
+														<a href="/ldpd-devlib/tag/choices">#choices</a>
+													</span>
+												</li>
+												
+												<li>
+													<span class="first-category">
+														
+														<a href="/ldpd-devlib/tag/colors">#colors</a>
+													</span>
+												</li>
+												
+												<li>
+													<span class="first-category">
+														
+														<a href="/ldpd-devlib/tag/design">#design</a>
+													</span>
+												</li>
+												
+												<li>
+													<span class="first-category">
+														
+														<a href="/ldpd-devlib/tag/fonts">#fonts</a>
+													</span>
+												</li>
+												
+											</ul>
+										</div>
+
+										<header class="entry-header">
+											<h1 class="entry-title"><a href="/ldpd-devlib/design-team-nailing-the-details/" rel="bookmark">Design Team: Nailing the Details</a></h1>
+										</header>
+
+										<div class="entry-meta entry-meta-header-after">
+											<ul>
+												<li>
+													<span class="posted-on">
+														<a href="/ldpd-devlib/design-team-nailing-the-details/" rel="bookmark">
+															<time class="entry-date published" datetime="2014-09-25 00:00:00 -0400">September 25, 14</time>
+														</a>
+													</span>
+												</li>
+												<li>
+													<span class="byline"> by
+														<span class="author vcard">
+															
+															
+																<a class="url fn n" href="/ldpd-devlib/author/klg19">
+															
+															Karen Green
+															
+																</a>
+															
+														</span>
+													</span>
+												</li>
+											</ul>
+										</div>
+									</div>
+
+									<div class="entry-summary">
+										<p>A scant six weeks after presenting our design choices to the Developing Library group, the Design and Development Teams at last sat down together to hammer out the details for which each were dependent on the other. The Design Team learned that the Development Team had chosen the Omeka theme...</p>
+									</div>
+
+									<div class="more-link-wrapper">
+										<a href="/ldpd-devlib/design-team-nailing-the-details/" class="more-link">Read More</a>
+									</div>
+								</article>
+							
+						
+							
+							
+						
+					
+						
+					
+						
+					
+						
+					
+						
+							
+							
+						
+							
+							
+						
+					
+						
+					
+						
+					
+						
+					
+						
+							
+							
+						
+							
+							
+						
+							
+							
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+				</main>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- CULTNBW START -->
+<script type="text/javascript">
+  CULh_colorfg = '#303030';
+  CULh_colorbg = '#606060';
+</script>
+<script src="//cdn.cul.columbia.edu/ldpd-toolkit/widgets/cultnbw.min.js"></script>
+<!-- /CULTNBW END -->
+
+</div></body>
