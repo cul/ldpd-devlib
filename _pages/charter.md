@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Charter
-permalink: /charter
+permalink: /charter/
 ---
 
 <p>

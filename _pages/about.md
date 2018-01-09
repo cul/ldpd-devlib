@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: about
+permalink: /about/
 ---
 
 <p><a href="http://www.humanitiescommission.org/">Whether</a> or <a href="http://chronicle.com/blognetwork/edgeofthewest/2013/06/10/the-humanities-crisis/">not</a> the humanities are in the midst of a crisis, much is changing in the humanities research landscape. Libraries and librarians have responded in a number of creative ways to the pace of change brought on by new technologies and research methodologies. Librarians have already created new “services” in response to the trends born out of the digital revolution: training patrons to use the library remotely, especially in search and discovery approaches to vendor-provided databases; highlighting our increasing collection of electronic resources; providing licensed software and hardware at digital centers; using virtual reference to supplement face time; and digitizing primary sources. Beyond what we recognize as service provision, librarians have also emerged as partners and collaborators in the research process. For many years, libraries have been the place where information technology and research intersect, to the point where it is difficult to speak of digital humanities without referring to the role that libraries and librarians have played in laying the groundwork for it, not to mention the many active researchers in digital humanities currently embedded in libraries.</p>

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: The DHC
-permalink: /the-dhc
+permalink: /the-dhc/
 ---
 
 

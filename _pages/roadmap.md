@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Roadmap
-permalink: /roadmap
+permalink: /roadmap/
 ---
 <p><strong>Developing Librarian: The Project Site</strong></p>
 <p>Installing WordPress: Introduction to servers.</p>

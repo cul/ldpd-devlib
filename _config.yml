@@ -8,6 +8,8 @@ url:          ""
 baseurl:      ""
 gh-baseurl:   "/ldpd-devlib"
 
+permlaink:    pretty
+
 markdown:     kramdown
 exclude:      [ Gemfile*, vendor, spec, Rakefile, package*, README* ]
 
@@ -22,7 +24,7 @@ collections:
 
 quoll:
   main:
-    page: search.html
+    page: search/
     terms:
       - git
       - design

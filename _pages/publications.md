@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Publications and Presentations
-permalink: /publications
+permalink: /publications/
 ---
 <p>
 	Humanities & History Team,

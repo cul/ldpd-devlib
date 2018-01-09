@@ -7,7 +7,7 @@ categories:
 - metadata
 - project management
 date: 2014-09-12
-permalink: /group-meeting-august-12
+permalink: "/group-meeting-august-12/"
 title: Group Meeting, August 12
 id: 1216
 slug: group-meeting-august-12

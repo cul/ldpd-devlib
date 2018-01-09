@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Search
-permalink: /search
+permalink: /search/
 ---
 {% include search.html %}
 {% include categories.html %}

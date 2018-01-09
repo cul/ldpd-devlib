@@ -3,7 +3,7 @@ author: John L. Tofanelli
 categories:
 - four-things
 date: 2013-09-17
-permalink: "/responsible-site-development"
+permalink: "/responsible-site-development/"
 title: Responsible Site Development
 id: 801
 slug: responsible-site-development
