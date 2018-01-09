@@ -7,8 +7,3 @@ script:
   - bundle exec htmlproofer ./_site --only-4xx --check-html --allow-hash-href --disable-external
     - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
   - bundle exec rspec
-branches:
-  only:
-  - master
-
-# --assume-extension
