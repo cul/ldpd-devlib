@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
-gem 'jekyll', '3.7.0'
+gem 'jekyll', '3.7.2'
 
 group :development, :test do
-  gem 'wax_tasks', :git => "https://github.com/mnyrop/wax_tasks"
+  gem 'wax_tasks'
   gem 'html-proofer'
   gem 'rspec'
   gem 'capybara'
