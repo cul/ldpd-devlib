@@ -11,11 +11,11 @@ gh-baseurl:   "/ldpd-devlib"
 permlaink:    pretty
 
 markdown:     kramdown
-exclude:      [ Gemfile*, vendor, spec, Rakefile, package*, README* ]
+exclude:      [Gemfile.*, vendor, spec, Rakefile, package.*, README.*]
 
 collections:
     wposts:
-      source: posts.yaml
+      source: posts.json
       output: true
       directory: wposts
       layout: post
@@ -33,7 +33,7 @@ quoll:
 # jscdn
 scripts:
   - name: jquery
-    src:  https://code.jquery.com/jquery-3.2.1.min.js
+    src:  https://code.jquery.com/jquery-3.3.1.min.js
   - name: jquery-migrate
     src:  https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.0.1/jquery-migrate.min.js
   - name: lunr
