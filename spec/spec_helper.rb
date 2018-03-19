@@ -1,18 +1,23 @@
-# Require all of the necessary gems
 require 'rspec'
-require 'capybara/poltergeist'
+require 'selenium/webdriver'
+require 'geckodriver/helper'
 require 'capybara/dsl'
 require 'rack/jekyll'
-require 'rack/test'
 
 RSpec.configure do |config|
   config.include Capybara::DSL
 
-  $jekyll_config = YAML.load_file('_config.yml')
-  $baseurl = $jekyll_config['baseurl'].to_s
-  $search_tests = $jekyll_config['quoll']
+  Capybara.register_driver :firefox_headless do |app|
+    options = ::Selenium::WebDriver::Firefox::Options.new
+    options.args << '--headless'
 
-  Capybara.current_driver = :poltergeist
-  Capybara.javascript_driver = :poltergeist
+    Capybara::Selenium::Driver.new(app, browser: :firefox, options: options)
+  end
+
+  Capybara.javascript_driver = :firefox_headless
+
+
+  Capybara.current_driver = Capybara.javascript_driver
   Capybara.app = Rack::Jekyll.new(:force_build => false)
+
 end

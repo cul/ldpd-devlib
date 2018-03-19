@@ -1,9 +1,14 @@
-sudo: false
 language: ruby
-rvm:
-  - 2.4
+sudo: required
+rvm: 2.4
+env:
+  - MOZ_HEADLESS=1
+addons:
+  firefox: latest
 script:
   - bundle exec jekyll build
   - bundle exec htmlproofer ./_site --only-4xx --check-html --allow-hash-href --disable-external
-    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
   - bundle exec rspec
+branches:
+  only:
+    - master

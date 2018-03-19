@@ -21,8 +21,8 @@
   <link rel='stylesheet' id='custom-css' href='{{ "/css/custom.css" | relative_url }}' type='text/css' media='all'/>
 
   <!--cdn scripts-->
-  {% for script in site.scripts %}
-    <script type='text/javascript' id="{{ script.name }}" src="{{ script.src }}"></script>
+  {% for script in site.js %}
+    <script type='text/javascript' id ="{{ script[0] }}" src="{{ script[1].cdn }}"></script>
   {% endfor %}
   <!--local scripts-->
   <script type='text/javascript' id="retina-custom" src="{{ '/js/custom.js' | relative_url }}"></script>

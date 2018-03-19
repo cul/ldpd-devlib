@@ -1,44 +1,41 @@
 title:        Breaking the Code
 description:  The Developing Librarian Project
 
-version:      1.0.0
-repo:         https://github.com/cul/ldpd-devlib.git
+url:          ''
+baseurl:      ''
+gh-baseurl:   /ldpd-devlib
 
-url:          ""
-baseurl:      ""
-gh-baseurl:   "/ldpd-devlib"
-
-permlaink:    pretty
+permalink:    pretty
 
 markdown:     kramdown
-exclude:      [Gemfile.*, vendor, spec, Rakefile, package.*, README.*]
+exclude:      [Gemfile*, vendor, spec, Rakefile, package*, README*]
 
 collections:
     wposts:
       source: posts.json
       output: true
-      directory: wposts
       layout: post
     pages:
       output: true
 
 quoll:
   main:
-    page: search/
-    terms:
-      - git
-      - design
-      - omeka
+    page: search
+    terms: [git, design, omeka]
 
-# jscdn
-scripts:
-  - name: jquery
-    src:  https://code.jquery.com/jquery-3.3.1.min.js
-  - name: jquery-migrate
-    src:  https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.0.1/jquery-migrate.min.js
-  - name: lunr
-    src:  https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.1.5/lunr.min.js
-  - name: enquire.js
-    src:  https://cdnjs.cloudflare.com/ajax/libs/enquire.js/2.1.6/enquire.min.js
-  - name: superfish
-    src:  https://cdnjs.cloudflare.com/ajax/libs/superfish/1.7.9/js/superfish.min.js
+js:
+  jquery:
+    version: 3.3.1
+    cdn: https://code.jquery.com/jquery-3.3.1.min.js
+  lunr:
+    version: 2.1.6
+    cdn: https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.1.6/lunr.min.js
+  enquire.js:
+    version: 2.1.6
+    cdn: https://cdnjs.cloudflare.com/ajax/libs/enquire.js/2.1.6/enquire.min.js
+  superfish:
+    version: 1.7.9
+    cdn: https://cdnjs.cloudflare.com/ajax/libs/superfish/1.7.9/js/superfish.min.js
+  jquery-migrate:
+    version: 3.0.1
+    cdn: https://code.jquery.com/jquery-migrate-3.0.1.min.js
