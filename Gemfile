@@ -3,6 +3,7 @@ gem 'jekyll', '~> 3.7.3'
 
 group :development, :test do
   gem 'rspec'
+  gem 'html-proofer'
   gem 'selenium-webdriver'
   gem 'chromedriver-helper'
   gem 'capybara'
