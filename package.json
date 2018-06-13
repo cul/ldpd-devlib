@@ -1,12 +1,11 @@
 {
-  "name": "Breaking the Code",
-  "version": "1.0.0",
-  "description": "The Developing Librarian Project",
-  "dependencies": {
-    "jquery": "^3.3.1",
-    "lunr": "^2.1.6",
-    "enquire.js": "^2.1.6",
-    "superfish": "^1.7.9",
-    "jquery-migrate": "^3.0.1"
-  }
+    "name": "devlib",
+    "version": "1.0.0",
+    "dependencies": {
+        "elasticlunr": "^0.9.6",
+        "jquery": "^3.2.1",
+        "enquire.js": "^2.1.6",
+        "superfish": "^1.7.9",
+        "jquery-migrate": "^3.0.1"
+    }
 }
