@@ -1,9 +1,8 @@
-title:        Breaking the Code
+title:        'Breaking the Code'
 description:  The Developing Librarian Project
 
 url:          ''
 baseurl:      ''
-gh-baseurl:   /ldpd-devlib
 
 permalink:    pretty
 
@@ -15,6 +14,9 @@ collections:
       source: posts.json
       output: true
       layout: post
+      lunr_index:
+        content: true
+        fields: ['title', 'author', 'categories', 'tags']
     pages:
       output: true
 
@@ -24,12 +26,12 @@ quoll:
     terms: [git, design, omeka]
 
 js:
+  elasticlunr:
+    version: 0.9.6
+    cdn: https://cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.min.js
   jquery:
-    version: 3.3.1
-    cdn: https://code.jquery.com/jquery-3.3.1.min.js
-  lunr:
-    version: 2.1.6
-    cdn: https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.1.6/lunr.min.js
+    version: 3.2.1
+    cdn: https://code.jquery.com/jquery-3.2.1.min.js
   enquire.js:
     version: 2.1.6
     cdn: https://cdnjs.cloudflare.com/ajax/libs/enquire.js/2.1.6/enquire.min.js
